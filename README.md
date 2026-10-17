@@ -1,7 +1,3 @@
-# DFD-Engineering-Log
-
-Design for Disassembly study logs and virtual teardowns.
-
 # Design for Disassembly (DFD) Engineering Log
 
 Welcome to my DFD engineering portfolio. Here I track virtual teardowns and analyze hardware through the lens of sustainability, recyclability, and disassembly design.
