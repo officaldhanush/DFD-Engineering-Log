@@ -29,7 +29,15 @@
 
 ---
 
-## 3. Engineering Critique & Redesign
+## 3. Manufacturer Intent & Business Context
+* **Why Apple Designed It This Way:** 
+  1. **IP68 Water & Dust Resistance:** Glue creates a tight, gapless seal around the edges that rubber gaskets alone struggle to maintain at a thin profile.
+  2. **Ultra-Slim Aesthetics:** Adhesives take up far less internal volume than mechanical clips, screws, or mounting bosses.
+  3. **Control over Servicing & Upgrades:** Proprietary screws (Pentalobe/Tri-point) deter third-party repairs and encourage customers to buy new devices when battery health degrades (Planned Obsolescence).
 
-* **Main Design Flaw:** Heavy reliance on heat-softened perimeter glue for waterproofing and multi-drive screws internally slows down manual servicing and complicates automated disassembly.
-* **DFD Redesign Recommendation:** Replace perimeter glue with a reusable rubber gasket combined with snap-fit latches, standardized Phillips screws internally, and push-to-release battery latches.
+---
+
+## 4. Engineering Critique & DFD Redesign
+
+* **Main Design Flaw:** Heavy reliance on heat-softened perimeter glue and multi-drive screws slows down manual servicing, risks battery punctures, and complicates automated industrial recycling.
+* **DFD Redesign Recommendation:** Replace perimeter glue with a reusable mechanical rubber gasket paired with snap-fit latches, standardize all internal hardware to Phillips #00 screws, and use push-to-release mechanical battery latches instead of stretch-adhesive pull-tabs.
