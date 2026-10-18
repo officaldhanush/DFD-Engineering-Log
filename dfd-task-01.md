@@ -8,7 +8,13 @@
 
 ---
 
-## 2. DFD Audit Checklist
+## 2. Visual Teardown Reference
+![iPhone 14 Pro Battery Removal](./Screenshot_20261018-091900_iFixit.png)
+*Figure 1: Internal view showing perimeter adhesive seal and battery placement during disassembly. (Source: iFixit)*
+
+---
+
+## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
 * [ ] **Minimum Variety:** Fail — Uses multiple distinct screw types (Pentalobe, Tri-point Y000, Phillips).
@@ -30,7 +36,7 @@
 
 ---
 
-## 3. Manufacturer Intent & Business Context
+## 4. Manufacturer Intent & Business Context
 * **Why Apple Designed It This Way:** 
   1. **IP68 Water & Dust Resistance:** Glue creates a tight, gapless seal around the edges that rubber gaskets alone struggle to maintain at a thin profile.
   2. **Ultra-Slim Aesthetics:** Adhesives take up far less internal volume than mechanical clips, screws, or mounting bosses.
@@ -38,7 +44,7 @@
 
 ---
 
-## 4. Engineering Critique & DFD Redesign
+## 5. Engineering Critique & DFD Redesign
 
 * **Main Design Flaw:** Heavy reliance on heat-softened perimeter glue and multi-drive screws slows down manual servicing, risks battery punctures, and complicates automated industrial recycling.
 * **DFD Redesign Recommendation:** Replace perimeter glue with a reusable mechanical rubber gasket paired with snap-fit latches, standardize all internal hardware to Phillips #00 screws, and use push-to-release mechanical battery latches instead of stretch-adhesive pull-tabs.
