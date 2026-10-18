@@ -8,9 +8,9 @@
 
 ---
 
-## 2. Visual Teardown Reference
-![iPhone 14 Pro Battery Removal](./Screenshot_20261018-091900_iFixit.png)
-*Figure 1: Internal view showing perimeter adhesive seal and battery placement during disassembly. (Source: iFixit)*
+ ## 2. Visual Teardown Reference
+![iPhone 14 Pro Battery Adhesive Removal](./Screenshot_20261018-091900_iFixit.png)
+*Figure 1: Applying isopropyl alcohol solvent to dissolve strong battery adhesive strips during disassembly. (Source: iFixit)*
 
 ---
 
