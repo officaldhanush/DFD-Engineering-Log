@@ -1,8 +1,9 @@
-# DFD Study Log 01: iPhone 14 Pro Battery Replacement
+# DFD Study Log 01: iPhone 14 Pro Battery Replacement (Virtual Teardown)
 
 ## 1. Target Device Overview
 * **Device Name:** iPhone 14 Pro
 * **Disassembly Goal:** Battery Replacement
+* **Analysis Type:** Virtual Teardown Analysis
 * **iFixit Guide:** iPhone 14 Pro Battery Replacement
 
 ---
