@@ -8,7 +8,13 @@
 
 ---
 
-## 2. DFD Audit Checklist
+## 2. Visual Teardown Reference
+![iPhone 15 Logic Board Standoff Screws](./Screenshot_20261018-091335_iFixit~2.jpg)
+*Figure 1: Internal chassis view displaying the five standoff screws securing the iPhone 15 logic board. (Source: iFixit)*
+
+---
+
+## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
 * [ ] **Minimum Variety:** Fail — Uses a mix of Standoff screws, Tri-point Y000, Pentalobe, and Phillips screws securing the logic board and grounding covers.
@@ -30,7 +36,7 @@
 
 ---
 
-## 3. Manufacturer Intent & Business Context
+## 4. Manufacturer Intent & Business Context
 * **Why Apple Designed It This Way:** 
   1. **Extreme Component Density:** Stacking the motherboard and surrounding it with dense flex connectors allows Apple to fit a larger battery and heavy camera sensors into a light, compact body.
   2. **Structural Rigidity:** Layering metal brackets and standoff screws over the logic board protects sensitive silicon chips from bending forces when dropped.
@@ -38,7 +44,7 @@
 
 ---
 
-## 4. Engineering Critique & DFD Redesign
+## 5. Engineering Critique & DFD Redesign
 
 * **Main Design Flaw:** High fastener complexity (standoff + tri-point screws) combined with a high density of overlapping, fragile flex cables creates a slow, high-risk disassembly process for motherboard recovery.
 * **DFD Redesign Recommendation:** Consolidate internal shielding brackets into single-latch spring clips, standardize all internal standoff screws to a uniform drive head, and group ribbon cables into a single high-density main bus connector to reduce individual disconnect steps.
