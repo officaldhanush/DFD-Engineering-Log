@@ -10,6 +10,7 @@
 
 ## 2. Visual Teardown Reference
 ![PS5 Mainboard and APU Architecture](./Screenshot_20261019-074707_iFixit.png)
+*Image Source: iFixit PlayStation 5 Teardown Guide*
 
 ---
 
