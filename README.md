@@ -17,3 +17,4 @@ Whenever I analyze a device, I audit it against these four core principles:
 
 * [Log 02: iPhone 15 Logic Board Replacement](./dfd-task-02.md)
 * [Log 03: PlayStation 5 Main board & Thermal Analysis Architecture Analysis](./dfd-task-03.md)
+* [Log 04: Nothing Ear (1) Stem PCB & Wireless Architecture Analysis](./dfd-task-04.md)
