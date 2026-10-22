@@ -19,3 +19,4 @@ Whenever I analyze a device, I audit it against these four core principles:
 * [Log 03: PlayStation 5 Main board & Thermal Analysis Architecture Analysis](./dfd-task-03.md)
 * [Log 04: Nothing Ear (1) Stem PCB & Wireless Architecture Analysis](./dfd-task-04.md)
 * [Log 05: Samsung Galaxy S25 Ultra Back Cover & Chassis Access Analysis](./dfd-task-05.md)
+* [Log 06: iPhone 13 Pro Max Screen & Display Assembly Removal Analysis](./dfd-task-06.md)
