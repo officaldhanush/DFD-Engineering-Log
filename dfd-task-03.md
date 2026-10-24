@@ -2,6 +2,7 @@
 
 ## 1. Target Device Overview
 * **Device Name:** Sony PlayStation 5 (Base Model / Disc Edition)
+* **Repairability Score:** 7/10 | **DFD Grade:** B (Tool-Free Outer Panels, Adhesive Fan Seals)
 * **Disassembly Goal:** Mainboard & Liquid Metal Thermal Architecture Access
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** PS5 Mainboard & Liquid Metal Heatsink Disassembly
