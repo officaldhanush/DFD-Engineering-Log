@@ -2,6 +2,7 @@
 
 ## 1. Target Device Overview
 * **Device Name:** Nothing Ear (1) True Wireless Earbuds
+* **Repairability Score:** 0/10 | **DFD Grade:** F (Fully Glued / Non-Disassemblable Shell)
 * **Disassembly Goal:** Earbud Stem PCB & Audio/Bluetooth Control Architecture Access
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** Nothing Ear (1) Teardown & Repairability Assessment
