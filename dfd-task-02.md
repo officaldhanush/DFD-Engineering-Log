@@ -2,6 +2,7 @@
 
 ## 1. Target Device Overview
 * **Device Name:** iPhone 15 (Base Model)
+* **Repairability Score:** 7/10 | **DFD Grade:** B- (Dual-Entry Glass Architecture)
 * **Disassembly Goal:** Logic Board (Motherboard) Replacement
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit Guide:** iPhone 15 Logic Board Replacement
