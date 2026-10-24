@@ -21,3 +21,4 @@ Whenever I analyze a device, I audit it against these four core principles:
 * [Log 05: Samsung Galaxy S25 Ultra Back Cover & Chassis Access Analysis](./dfd-task-05.md)
 * [Log 06: iPhone 13 Pro Max Screen & Display Assembly Removal Analysis](./dfd-task-06.md)
 * [Log 07: MacBook Air 13" Late 2020 Screen & Display Assembly Replacement Analysis](./dfd-task-07.md)
+* [Log 08: iPad Pro 11" 4th Gen Screen & Display Assembly Replacement Analysis](./dfd-task-08.md)
