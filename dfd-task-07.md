@@ -2,6 +2,7 @@
 
 ## 1. Target Device Overview
 * **Device Name:** MacBook Air 13" (Late 2020, M1)
+* **Repairability Score:** 6/10 | **DFD Grade:** C+ (Modular Hinges, Multi-Drive Hardware Overhead)
 * **Disassembly Goal:** Complete Display Assembly (LID) Detachment & Hinge Access
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** MacBook Air 13" Late 2020 Display Assembly Replacement & Structural Audit
