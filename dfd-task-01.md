@@ -2,6 +2,7 @@
 
 ## 1. Target Device Overview
 * **Device Name:** iPhone 14 Pro
+*  **Repairability Score:** 6/10 | **DFD Grade:** C+ (Moderate Entry Complexity)
 * **Disassembly Goal:** Battery Replacement
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit Guide:** iPhone 14 Pro Battery Replacement
