@@ -2,6 +2,7 @@
 
 ## 1. Target Device Overview
 * **Device Name:** Samsung Galaxy S25 Ultra
+* **Repairability Score:** 5/10 | **DFD Grade:** D+ (Heavy Display & Battery Bonding)
 * **Disassembly Goal:** Rear Glass Panel Removal & Internal Structural Chassis Access[cite: 5]
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** Samsung Galaxy S25 Ultra Back Glass Removal & Internal Structural Audit[cite: 5]
