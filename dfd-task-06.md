@@ -3,6 +3,7 @@
 
 ## 1. Target Device Overview
 * **Device Name:** iPhone 13 Pro Max
+* **Repairability Score:** 6/10 | **DFD Grade:** C+ (Perimeter Adhesive & Multi-Screw Shielding)
 * **Disassembly Goal:** OLED Display Detachment & Internal Logic Board / Battery Access
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** iPhone 13 Pro Max Screen Replacement & Structural Audit
