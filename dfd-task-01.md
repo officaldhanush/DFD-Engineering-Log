@@ -49,3 +49,6 @@
 
 * **Main Design Flaw:** Heavy reliance on heat-softened perimeter glue and multi-drive screws slows down manual servicing, risks battery punctures, and complicates automated industrial recycling.
 * **DFD Redesign Recommendation:** Replace perimeter glue with a reusable mechanical rubber gasket paired with snap-fit latches, standardize all internal hardware to Phillips #00 screws, and use push-to-release mechanical battery latches instead of stretch-adhesive pull-tabs.
+
+## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** The dual-entry glass and security screw design prevent unauthorized casing intrusion and protect internal user data. However, this high level of physical tamper resistance directly increases teardown complexity, making non-destructive disassembly difficult for service technicians.
