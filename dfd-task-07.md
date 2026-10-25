@@ -48,3 +48,6 @@
 
 * **Main Design Flaw:** Accessing the display hinges requires prior removal of the battery interface shield, antenna board, and multiple micro-Torx brackets, significantly increasing teardown steps for a high-turnover repair.
 * **DFD Redesign Recommendation:** Consolidate hinge screws to a single standardized Torx drive size and utilize top-accessible external hinge caps or quick-release latching pins to allow screen swapping without deep internal board disassembly.
+
+## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** Direct unibody screw anchoring provides solid structural rigidity and prevents casual casing separation. While internal components are mechanically secured rather than glued, the mix of proprietary drive bits deters unauthorized internal tampering.
