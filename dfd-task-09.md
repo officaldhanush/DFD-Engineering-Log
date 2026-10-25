@@ -48,3 +48,6 @@
 
 * **Main Design Flaw:** Heavy reliance on sticky structural battery adhesive and multi-drive screw matrices makes routine power-cell swaps tedious and risky for average users.
 * **DFD Redesign Recommendation:** Implement stretch-release pull tabs (similar to modern smartphone designs) alongside a uniform single-drive screw head standard to enable fast, tool-light battery replacement.
+
+## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** Specialized screw fasteners and adhesive battery anchoring protect the internal cells from shock during drops and deter unauthorized third-party alterations. This trade-off prioritizes handheld structural safety over accessible recycling and user maintenance.
