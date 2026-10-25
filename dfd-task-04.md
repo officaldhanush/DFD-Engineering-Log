@@ -48,3 +48,6 @@
 
 * **Main Design Flaw:** Completely glued-shut enclosures and micro-soldered batteries render the device virtually unrepairable and difficult to recycle cleanly, directly conflicting with circular economy goals.
 * **DFD Redesign Recommendation:** Replace ultrasonic welding on the outer shell with a snap-fit locking ring or a serviceable silicone gasket seal, use modular spring-contacts instead of soldered battery wires, and avoid permanent structural adhesives on high-wear power components.
+
+## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** Full ultrasonic plastic welding provides exceptional IP-rated water resistance and absolute tamper-proofing against casual intrusion. The severe trade-off is that non-destructive disassembly is impossible, completely sacrificing end-of-life material recovery.
