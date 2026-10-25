@@ -48,3 +48,6 @@
 
 * **Main Design Flaw:** Heavy perimeter adhesive bonding requires extensive heating and delicate slicing, making screen replacement high-risk for cracking display glass or severing sensor flex cables.
 * **DFD Redesign Recommendation:** Introduce hidden stretch-release adhesive pull tabs or an internal perimeter latch system with standard accessible screws along the frame edges, allowing safe mechanical detachment without heat.
+
+## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** Continuous display-edge adhesive ensures a rigid, ultra-slim profile with robust protection against physical twisting and environmental elements. The heavy reliance on glue acts as a strong tamper deterrent, making safe non-destructive entry difficult.
