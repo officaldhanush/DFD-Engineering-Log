@@ -48,3 +48,6 @@
 
 * **Main Design Flaw:** Heavy perimeter adhesive on fragile rear glass creates a high risk of cracking during entry, requiring specialized heating tools and high manual labor for initial disassembly[cite: 5].
 * **DFD Redesign Recommendation:** Implement a reusable, compressed elastomeric gasket paired with perimeter flush screws or concealed corner mechanical latches. This maintains water resistance while enabling clean, tool-assisted mechanical entry without heat.
+
+## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** Heavy adhesive backing and continuous frame bonding maximize drop durability and moisture sealing. This robust physical protection creates a steep barrier to entry for repairs, heavily risking component damage during ungluing.
