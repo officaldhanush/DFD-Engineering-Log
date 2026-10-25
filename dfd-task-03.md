@@ -48,3 +48,6 @@
 
 * **Main Design Flaw:** High internal screw count with varied thread lengths and driver types (Torx + Phillips) makes reaching the mainboard slow and increases assembly/disassembly error rates during servicing.
 * **DFD Redesign Recommendation:** Standardize all internal shield fasteners to a single drive head (Phillips #1), switch the fan housing to a tool-less lever-latch system, and utilize a pre-cured phase-change thermal pad instead of liquid metal to simplify automated disassembly and recycling.
+
+## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** Tool-free snap-on outer panels allow easy consumer access for dust cleaning without compromising core structural security. Meanwhile, internal security Torx screws and adhesive fan seals safeguard proprietary hardware from unauthorized third-party modifications.
