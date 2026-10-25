@@ -49,3 +49,6 @@
 
 * **Main Design Flaw:** High fastener complexity (standoff + tri-point screws) combined with a high density of overlapping, fragile flex cables creates a slow, high-risk disassembly process for motherboard recovery.
 * **DFD Redesign Recommendation:** Consolidate internal shielding brackets into single-latch spring clips, standardize all internal standoff screws to a uniform drive head, and group ribbon cables into a single high-density main bus connector to reduce individual disconnect steps.
+
+## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** While simplified rear-glass accessibility improves repair efficiency, the tight mechanical seals and interlocking frames maintain high structural rigidity. This balances physical drop protection against malicious physical tampering while easing legitimate internal component swapping.
