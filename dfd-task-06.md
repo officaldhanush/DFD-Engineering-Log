@@ -49,3 +49,6 @@
 
 * **Main Design Flaw:** High reliance on proprietary fasteners and perimeter adhesive makes display entry difficult for non-specialists, increasing the risk of severing micro-flex cables upon opening.
 * **DFD Redesign Recommendation:** Transition from perimeter adhesive tape to a re-usable elastomeric compression gasket sealed with standard Torx screws, allowing clean mechanical entry and simplified re-assembly.
+
+* ## 6. Product Design & Physical Security Trade-offs
+* **Tamper Resistance vs. Disassembly:** Continuous perimeter adhesive and multi-layered internal shields ensure high physical security and structural integrity against bending or water intrusion. However, this configuration raises the friction for routine screen or battery replacements.
