@@ -2,8 +2,9 @@
 
 ## 1. Target Device Overview
 * **Device Name:** iPhone 14 Pro
-*  **Repairability Score:** 6/10 | **DFD Grade:** C+ (Moderate Entry Complexity)
-* **Disassembly Goal:** Battery Replacement
+* **Repairability Score:** 6/10 | **DFD Grade:** C+ (Moderate Entry Complexity)
+* **Estimated Disassembly Time & Labor Friction:** ~35–45 minutes | Moderate-High (Heat pad softening required for perimeter adhesive; multi-screw shield management)
+*  **Disassembly Goal:** Battery Replacement
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit Guide:** iPhone 14 Pro Battery Replacement
 
