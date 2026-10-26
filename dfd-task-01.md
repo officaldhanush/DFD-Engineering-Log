@@ -53,3 +53,8 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** The dual-entry glass and security screw design prevent unauthorized casing intrusion and protect internal user data. However, this high level of physical tamper resistance directly increases teardown complexity, making non-destructive disassembly difficult for service technicians.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Partial Pass — Batteries and display modules can be extracted, but heavy adhesive and multi-bracket layouts risk damaging components during rapid removal.
+* **Material Identification & Sorting:** Pass — Internal structural plastics and metal frames feature clear resin markings and separable alloys.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — High-density perimeter adhesives and display optical bonding complicate clean chemical sorting during shredding.
