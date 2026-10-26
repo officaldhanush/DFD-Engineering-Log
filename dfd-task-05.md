@@ -3,6 +3,7 @@
 ## 1. Target Device Overview
 * **Device Name:** Samsung Galaxy S25 Ultra
 * **Repairability Score:** 5/10 | **DFD Grade:** D+ (Heavy Display & Battery Bonding)
+* **Estimated Disassembly Time & Labor Friction:** ~40–50 minutes | High (Heavy rear glass and battery adhesive require prolonged thermal softening and chemical solvent application)
 * **Disassembly Goal:** Rear Glass Panel Removal & Internal Structural Chassis Access[cite: 5]
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** Samsung Galaxy S25 Ultra Back Glass Removal & Internal Structural Audit[cite: 5]
