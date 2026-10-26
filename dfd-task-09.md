@@ -52,3 +52,8 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** Specialized screw fasteners and adhesive battery anchoring protect the internal cells from shock during drops and deter unauthorized third-party alterations. This trade-off prioritizes handheld structural safety over accessible recycling and user maintenance.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Partial Pass — Mainboard and shell assemblies separate cleanly via screws, but the adhered battery cell requires careful solvent release.
+* **Material Identification & Sorting:** Pass — Plastic housing sections feature molded ISO resin codes for efficient recycling streams.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Structural battery PSA adhesive increases contamination risk during automated mechanical shredding.
