@@ -3,6 +3,7 @@
 ## 1. Target Device Overview
 * **Device Name:** Google Pixel Watch 4
 * **Repairability Score:** 4/10 | **DFD Grade:** D (High Adhesive Density & Compact Curvature Risk)
+* **Estimated Disassembly Time & Labor Friction:** ~40–50 minutes | High (Curved 3D AMOLED display bonded with high-density structural perimeter glue, risking glass fracture)
 * **Disassembly Goal:** Curved AMOLED Display Separation & Internal Ribbon Disconnection
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** Google Pixel Watch 4 Display Replacement & Structural Audit
