@@ -10,7 +10,7 @@
 ---
 
 ## 2. Visual Teardown Reference
-![Google Pixel Watch 4 Screen Separation](./Screenshot_20261026-072310_iFixit.png)
+![Google Pixel Watch 4 Screen Separation](./Screenshot_20261026-072207_iFixit.png)
 *Image Source: iFixit Google Pixel Watch 4 Teardown Guide*
 
 ---
