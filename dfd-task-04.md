@@ -52,3 +52,7 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** Full ultrasonic plastic welding provides exceptional IP-rated water resistance and absolute tamper-proofing against casual intrusion. The severe trade-off is that non-destructive disassembly is impossible, completely sacrificing end-of-life material recovery.
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Fail — Ultrasonic welding fuses plastic shells permanently, preventing non-destructive recovery of internal batteries and circuits.
+* **Material Identification & Sorting:** Fail — Destructive mechanical breaking mixes crushed plastics with internal resins, hindering automated sorting.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Full-body plastic welding and internal potting compounds severely contaminate the recycling stream.
