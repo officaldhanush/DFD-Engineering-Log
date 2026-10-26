@@ -52,3 +52,8 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** Continuous display-edge adhesive ensures a rigid, ultra-slim profile with robust protection against physical twisting and environmental elements. The heavy reliance on glue acts as a strong tamper deterrent, making safe non-destructive entry difficult.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Partial Pass — Display glass and battery extraction carry high fracture and puncture risks due to heavy adhesive bonding.
+* **Material Identification & Sorting:** Pass — Metal housing and glass elements sort well once completely unbonded.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Extensive perimeter display adhesive and optical clear resins introduce high bonding contamination risks.
