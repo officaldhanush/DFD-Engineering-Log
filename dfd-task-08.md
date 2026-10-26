@@ -3,6 +3,7 @@
 ## 1. Target Device Overview
 * **Device Name:** iPad Pro 11" 4th Generation (M2)
 * **Repairability Score:** 3/10 | **DFD Grade:** D (High Glass Fracture Risk & Perimeter Bonding)
+* **Estimated Disassembly Time & Labor Friction:** ~50–60 minutes | High (Extreme glass fracture risk, heavy perimeter adhesive, and delicate Face ID flex cable positioning)
 * **Disassembly Goal:** Liquid Retina Display Separation & Internal Connector Uncoupling
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** iPad Pro 11" 4th Gen Display Replacement & Structural Audit
