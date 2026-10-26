@@ -53,3 +53,8 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** While simplified rear-glass accessibility improves repair efficiency, the tight mechanical seals and interlocking frames maintain high structural rigidity. This balances physical drop protection against malicious physical tampering while easing legitimate internal component swapping.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Pass — Refined dual-entry access allows clean isolation of the battery, mainboard, and display assemblies.
+* **Material Identification & Sorting:** Pass — Utilizes recycled aluminum chassis elements and clearly stamped internal plastic brackets.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Perimeter structural adhesives remain a contaminant risk for automated plastic recycling streams.
