@@ -3,6 +3,7 @@
 ## 1. Target Device Overview
 * **Device Name:** Nothing Ear (1) True Wireless Earbuds
 * **Repairability Score:** 0/10 | **DFD Grade:** F (Fully Glued / Non-Disassemblable Shell)
+* **Estimated Disassembly Time & Labor Friction:** ~45–60+ minutes | Extreme (Ultrasonic plastic welding requires destructive cracking/sawing to breach housing)
 * **Disassembly Goal:** Earbud Stem PCB & Audio/Bluetooth Control Architecture Access
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** Nothing Ear (1) Teardown & Repairability Assessment
