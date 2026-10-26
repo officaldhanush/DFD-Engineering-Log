@@ -3,6 +3,7 @@
 ## 1. Target Device Overview
 * **Device Name:** iPhone 15 (Base Model)
 * **Repairability Score:** 7/10 | **DFD Grade:** B- (Dual-Entry Glass Architecture)
+* **Estimated Disassembly Time & Labor Friction:** ~30–40 minutes | Moderate (Dual-entry glass design requires thermal softening and careful hinge ribbon clearance)
 * **Disassembly Goal:** Logic Board (Motherboard) Replacement
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit Guide:** iPhone 15 Logic Board Replacement
