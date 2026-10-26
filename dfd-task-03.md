@@ -52,3 +52,8 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** Tool-free snap-on outer panels allow easy consumer access for dust cleaning without compromising core structural security. Meanwhile, internal security Torx screws and adhesive fan seals safeguard proprietary hardware from unauthorized third-party modifications.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Pass — Large modules (power supply, fan, optical drive, and mainboard) separate cleanly with standard tooling.
+* **Material Identification & Sorting:** Pass — Outer covers and internal structural parts carry clear ISO plastic resin identification codes.
+* **RoHS/REACH Chemical & Bonding Risk:** Pass — Minimal reliance on heavy bonding agents; components rely mostly on mechanical fasteners and snap-fits.
