@@ -52,3 +52,8 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** Heavy adhesive backing and continuous frame bonding maximize drop durability and moisture sealing. This robust physical protection creates a steep barrier to entry for repairs, heavily risking component damage during ungluing.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Partial Pass — Batteries and displays can be recovered, but extensive chemical/thermal softening is required to avoid tearing components.
+* **Material Identification & Sorting:** Pass — Metal frame and glass elements are cleanly separated, though housing plastics require chemical breakdown.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Heavy reliance on industrial adhesive backing creates significant contamination during thermal or mechanical recycling.
