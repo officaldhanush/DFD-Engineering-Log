@@ -53,3 +53,8 @@
 
 * ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** Continuous perimeter adhesive and multi-layered internal shields ensure high physical security and structural integrity against bending or water intrusion. However, this configuration raises the friction for routine screen or battery replacements.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Partial Pass — High-value components like the mainboard and cameras are recoverable, though stuck battery cells risk puncturing during extraction.
+* **Material Identification & Sorting:** Pass — Enclosures use separable aluminum and glass elements with labeled internal brackets.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Continuous perimeter adhesive layers hinder clean automated separation of housing materials.
