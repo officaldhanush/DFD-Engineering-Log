@@ -54,3 +54,8 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** The continuous structural adhesive perimeter provides high IP-rated ingress protection and prevents physical tampering with internal sensor data. However, this tight environmental sealing creates high friction for display repairs, requiring heat and delicate mechanical separation.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Partial Pass — Internal modules can be unscrewed once unbonded, but thermal separation of the curved display risks glass breakage.
+* **Material Identification & Sorting:** Pass — Recycled aluminum chassis and stainless steel components feature clean alloy separation points.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Dense waterproof perimeter liquid adhesive complicates clean material sorting and recycling streams.
