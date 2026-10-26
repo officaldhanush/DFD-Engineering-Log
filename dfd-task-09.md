@@ -3,6 +3,7 @@
 ## 1. Target Device Overview
 * **Device Name:** Nintendo Switch 2
 * **Repairability Score:** 5/10 | **DFD Grade:** D+ (Adhesive-Secured Cell & Multi-Drive Fastener Matrix)
+* **Estimated Disassembly Time & Labor Friction:** ~35–45 minutes | Moderate (Mixed-drive fastener matrix combined with adhesive-anchored internal battery cells)
 * **Disassembly Goal:** Back-Cover Detachment, Shield Plate Removal, & Adhered Battery Cell Extraction
 * **Analysis Type:** Virtual Teardown Analysis
 * **iFixit / Teardown Reference:** Nintendo Switch 2 Battery Replacement & Structural Audit
