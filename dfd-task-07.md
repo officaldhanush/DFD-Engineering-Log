@@ -52,3 +52,8 @@
 
 ## 6. Product Design & Physical Security Trade-offs
 * **Tamper Resistance vs. Disassembly:** Direct unibody screw anchoring provides solid structural rigidity and prevents casual casing separation. While internal components are mechanically secured rather than glued, the mix of proprietary drive bits deters unauthorized internal tampering.
+
+## 7. Regulatory & Eco-Compliance Audit
+* **WEEE Target Separation:** Pass — Unibody screw assembly allows systematic removal of the battery, logic board, and display panel without destruction.
+* **Material Identification & Sorting:** Pass — Aluminum unibody shell and internal metal shielding are exceptionally easy to sort and recycle.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Glued-in battery cells require thermal release agents that complicate automated e-waste recovery.
