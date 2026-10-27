@@ -4,7 +4,7 @@
 > * **Device & Goal:** Samsung Galaxy S25 Ultra | Rear Glass & Battery Extraction
 > * **DFD Grade:** C (Score: 5/10) | **Est. Time:** ~40–50 minutes (High)
 > * **Core Failure:** High-density rear glass adhesive and strong battery PSA require prolonged thermal and chemical softening.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_S25Ultra.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261021-081259_iFixit.png)
 
 ---
 
