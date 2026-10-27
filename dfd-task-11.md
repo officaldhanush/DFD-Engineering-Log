@@ -1,18 +1,10 @@
 # DFD Study Log 11: Google Pixel 7a (Internal Battery Replacement)
 
-## 1. Target Device Overview
-* **Device Name:** Google Pixel 7a
-* **Repairability Score:** 5/10 | **DFD Grade:** D+ (Heavy Battery Adhesive & Plastic Back Cover Separation)
-* **Estimated Disassembly Time & Labor Friction:** ~35–45 minutes | Moderate-High (Heat application required for plastic back panel removal; strong battery adhesive pull tabs prone to snapping)
-* **Disassembly Goal:** Rear Plastic Panel Removal, Midframe Unfastening, & Battery Extraction
-* **Analysis Type:** Virtual Teardown Analysis
-* **iFixit / Teardown Reference:** Google Pixel 7a Battery Replacement & Structural Audit
-
----
-
-## 2. Visual Teardown Reference
-![Google Pixel 7a Battery Removal](./Screenshot_20261027-071743_iFixit.png)
-*Image Source: iFixit Google Pixel 7a Teardown Guide*[cite: 4]
+> **Executive Overview & Audit Snapshot**
+> * **Device & Goal:** Google Pixel 7a | Internal Battery Extraction & Midframe Disassembly
+> * **DFD Grade:** D+ (Score: 5/10) | **Est. Time:** ~35–45 minutes (Moderate-High)
+> * **Core Failure:** Fragile stretch-release pull tabs frequently snap, forcing technicians to rely on thermal softening and delicate manual prying.
+> * **Reference:** [iFixit Google Pixel 7a Teardown Guide](./Screenshot_20261027-071743_iFixit.png)
 
 ---
 
@@ -61,6 +53,8 @@
 * **WEEE Target Separation:** Partial Pass — The battery and logic board can be isolated, but strong internal adhesives and delicate ribbon cabling increase the risk of component damage during rapid extraction.
 * **Material Identification & Sorting:** Pass — Plastic back panel and internal composite elements carry clear resin/material stamps for post-consumer sorting.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Structural battery PSA tapes and perimeter sealing glues act as contaminants in automated mechanical shredding and sorting streams.
+
+---
 
 ## 8. Material Breakdown & Polymer Selection
 * **Primary Resins:** >PC-GF< (thermoformed back panel), >PA66< internal support frames.
