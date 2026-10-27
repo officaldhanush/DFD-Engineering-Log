@@ -57,3 +57,9 @@
 * **WEEE Target Separation:** Pass — Large modules (power supply, fan, optical drive, and mainboard) separate cleanly with standard tooling.
 * **Material Identification & Sorting:** Pass — Outer covers and internal structural parts carry clear ISO plastic resin identification codes.
 * **RoHS/REACH Chemical & Bonding Risk:** Pass — Minimal reliance on heavy bonding agents; components rely mostly on mechanical fasteners and snap-fits.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PC+ABS< (outer white chassis plates), >PP< (internal air ducts), >PBT-GF30< (connector housings).
+* **Thermal Response & Disassembly Friction:** High glass transition temperature (Tg >130°C for PC+ABS); modular snap-fit design minimizes thermal release requirements.
+* **Elastomers & Waterproofing Seals:** Minimal elastomeric sealing due to passive cooling design and internal dust baffles.
+* **Eco-Compliance & Circularity:** RoHS and REACH aligned, halogen-free external plastics, monochrome resin marking for automated recycling sorting.
