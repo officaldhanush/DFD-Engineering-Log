@@ -4,7 +4,7 @@
 > * **Device & Goal:** Google Pixel Watch 4 | Screen & Display Assembly Replacement
 > * **DFD Grade:** D (Score: 4/10) | **Est. Time:** ~40–50 minutes (High)
 > * **Core Failure:** Curved 3D AMOLED display bonded with high-density structural perimeter glue.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261026-072207_iFixit.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261026-072207_iFixit.png)
 
 ---
 
