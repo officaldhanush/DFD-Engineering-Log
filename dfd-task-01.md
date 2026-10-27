@@ -4,7 +4,7 @@
 > * **Device & Goal:** iPhone 14 Pro | Display Assembly Separation & Internal Modular Access
 > * **DFD Grade:** C+ (Score: 5/10) | **Est. Time:** ~35–45 minutes (Moderate-High)
 > * **Core Failure:** Continuous perimeter display adhesive and heavy multi-bracket cabling increase disassembly friction.
-> * **Reference:** [iFixit iPhone 14 Pro Teardown Guide](./Screenshot_20261026-072010_iFixit.png)
+> * **Reference:** [iFixit iPhone 14 Pro Teardown Guide](Screenshot_20261018-091335_iFixit~2.jpg)
 
 ---
 
