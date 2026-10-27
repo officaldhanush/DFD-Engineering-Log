@@ -4,7 +4,7 @@
 > * **Device & Goal:** iPhone 13 Pro Max | Display & Battery Subassembly Replacement
 > * **DFD Grade:** C+ (Score: 6/10) | **Est. Time:** ~35–45 minutes (Moderate-High)
 > * **Core Failure:** Dense perimeter display adhesive and multi-bracket cable shields.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_iPhone13ProMax.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261022-071251_iFixit~2.jpg)
 
 ---
 
