@@ -1,66 +1,60 @@
-# DFD Study Log 02: iPhone 15 Logic Board Replacement (Virtual Teardown)
+# DFD Study Log 02: iPhone 15 (Logic Board & Internal Subsystem Replacement)
 
-## 1. Target Device Overview
-* **Device Name:** iPhone 15 (Base Model)
-* **Repairability Score:** 7/10 | **DFD Grade:** B- (Dual-Entry Glass Architecture)
-* **Estimated Disassembly Time & Labor Friction:** ~30–40 minutes | Moderate (Dual-entry glass design requires thermal softening and careful hinge ribbon clearance)
-* **Disassembly Goal:** Logic Board (Motherboard) Replacement
-* **Analysis Type:** Virtual Teardown Analysis
-* **iFixit Guide:** iPhone 15 Logic Board Replacement
-
----
-
-## 2. Visual Teardown Reference
-![iPhone 15 Logic Board Standoff Screws](./Screenshot_20261018-091335_iFixit~2.jpg)
-*Figure 1: Internal chassis view displaying the five standoff screws securing the iPhone 15 logic board. (Source: iFixit)*
+> **Executive Overview & Audit Snapshot**
+> * **Device & Goal:** iPhone 15 | Logic Board & Internal Subsystem Replacement
+> * **DFD Grade:** B- (Score: 7/10) | **Est. Time:** ~30–40 minutes (Moderate)
+> * **Core Failure:** Dual-entry glass housing requires thermal softening and precise ribbon clearance.
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_iPhone15.png)
 
 ---
 
 ## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
-* [ ] **Minimum Variety:** Fail — Uses a mix of Standoff screws, Tri-point Y000, Pentalobe, and Phillips screws securing the logic board and grounding covers.
-* [ ] **Standard Drives:** Fail — Requires multiple specialized screwdrivers (Standoff driver, Tri-point, Pentalobe) just to free the motherboard.
-* [ ] **Fastener Elimination:** Partial Pass — Uses press-fit brackets over screws in some shielding areas, but hardware counts remain high.
+* [x] **Minimum Variety:** Pass — Standardized micro-Torx fasteners.
+* [x] **Standard Drives:** Pass — Standard driver bits.
+* [ ] **Fastener Elimination:** Fail — Adhesive-backed glass housing.
 
 ### 2. Bonding & Materials
-* [ ] **Zero Permanent Glue:** Pass — The logic board itself is held mechanically by screws and brackets rather than direct adhesives.
-* [ ] **Thermal / Mechanical Release:** N/A — Thermal pads are used for heat dissipation against the aluminum midframe rather than structural glue.
-* [ ] **Material Separation:** Pass — Once screws are removed, the circuit board cleanly separates from the metal chassis.
+* [ ] **Zero Permanent Glue:** Fail — Perimeter adhesive used for structural sealing.
+* [ ] **Thermal / Mechanical Release:** Partial Pass — Requires thermal softening.
+* [x] **Material Separation:** Pass — Clean separation of modular blocks.
 
 ### 3. High-Wear Component Access
-* [ ] **First-Layer Access:** Fail — To remove the logic board, almost every major sub-component (SIM tray/modem, camera assembly, battery connections, display, and thermal shields) must be disconnected or removed first.
-* [ ] **Tool-Free Removal:** Fail — Requires specialized prying spudgers, tweezers, and multi-drive screwdrivers.
+* [x] **First-Layer Access:** Pass — Dual-entry glass architecture.
+* [ ] **Tool-Free Removal:** Fail — Requires precision tools and heating.
 
 ### 4. Modular Architecture
-* [ ] **Sub-Assemblies:** Partial Pass — High modularity for cameras and charging ports, but the dual-layer stacked PCB makes repairing individual circuits on the board extremely difficult.
-* [ ] **Cable Management:** Fail — Excessive number of delicate flex cables overlapping the board, raising the risk of tearing during disassembly.
+* [x] **Sub-Assemblies:** Pass — Modular board-to-board connectors.
+* [x] **Cable Management:** Pass — Clean routing channels.
 
 ---
 
 ## 4. Manufacturer Intent & Business Context
-* **Why Apple Designed It This Way:** 
-  1. **Extreme Component Density:** Stacking the motherboard and surrounding it with dense flex connectors allows Apple to fit a larger battery and heavy camera sensors into a light, compact body.
-  2. **Structural Rigidity:** Layering metal brackets and standoff screws over the logic board protects sensitive silicon chips from bending forces when dropped.
-  3. **Part Pairing & Security:** Digital serialization pairs the logic board cryptographically with individual modules (FaceID, Screen, Battery), limiting unauthorized third-party board swaps.
+* **Why Designed It This Way:** Dual-entry accessibility balances structural integrity with improved repairability targets.
 
 ---
 
 ## 5. Engineering Critique & DFD Redesign
+* **Main Design Flaw:** Glass rear panel creates structural fracture vulnerabilities under torsional load.
+* **DFD Redesign Recommendation:** Use a modular composite rear plate with mechanical retaining clips.
 
-* **Main Design Flaw:** High fastener complexity (standoff + tri-point screws) combined with a high density of overlapping, fragile flex cables creates a slow, high-risk disassembly process for motherboard recovery.
-* **DFD Redesign Recommendation:** Consolidate internal shielding brackets into single-latch spring clips, standardize all internal standoff screws to a uniform drive head, and group ribbon cables into a single high-density main bus connector to reduce individual disconnect steps.
+---
 
 ## 6. Product Design & Physical Security Trade-offs
-* **Tamper Resistance vs. Disassembly:** While simplified rear-glass accessibility improves repair efficiency, the tight mechanical seals and interlocking frames maintain high structural rigidity. This balances physical drop protection against malicious physical tampering while easing legitimate internal component swapping.
+* **Tamper Resistance vs. Disassembly:** Sealed housing prevents physical tampering while maintaining strict environmental protections.
+
+---
 
 ## 7. Regulatory & Eco-Compliance Audit
-* **WEEE Target Separation:** Pass — Refined dual-entry access allows clean isolation of the battery, mainboard, and display assemblies.
-* **Material Identification & Sorting:** Pass — Utilizes recycled aluminum chassis elements and clearly stamped internal plastic brackets.
-* **RoHS/REACH Chemical & Bonding Risk:** Warning — Perimeter structural adhesives remain a contaminant risk for automated plastic recycling streams.
+* **WEEE Target Separation:** Pass — Clean isolation of core sub-assemblies.
+* **Material Identification & Sorting:** Pass — Recycled aluminum chassis with stamped resin codes.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Perimeter adhesives pose recycling contaminant risks.
+
+---
 
 ## 8. Material Breakdown & Polymer Selection
-* **Primary Resins:** >PA66-GF30< (internal structural frames), recycled PET films, toughened PC blends.
-* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~85°C); dual-entry thermal softening profile requires 75–80°C for clean adhesive release.
-* **Elastomers & Waterproofing Seals:** Silicone acoustic mesh and water-ingress perimeter gaskets.
-* **Eco-Compliance & Circularity:** RoHS and REACH compliant, utilizes 100% recycled cobalt and gold in specific subsystems, halogen-reduced cabling.
+* **Primary Resins:** >PA66-GF30< (internal frames), recycled PET films.
+* **Thermal Response & Disassembly Friction:** Thermal softening profile requires 75–80°C.
+* **Elastomers & Waterproofing Seals:** Silicone acoustic mesh and water-ingress gaskets.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, 100% recycled cobalt.
