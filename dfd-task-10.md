@@ -1,67 +1,60 @@
 # DFD Study Log 10: Google Pixel Watch 4 (Screen & Display Assembly Replacement)
 
-## 1. Target Device Overview
-* **Device Name:** Google Pixel Watch 4
-* **Repairability Score:** 4/10 | **DFD Grade:** D (High Adhesive Density & Compact Curvature Risk)
-* **Estimated Disassembly Time & Labor Friction:** ~40–50 minutes | High (Curved 3D AMOLED display bonded with high-density structural perimeter glue, risking glass fracture)
-* **Disassembly Goal:** Curved AMOLED Display Separation & Internal Ribbon Disconnection
-* **Analysis Type:** Virtual Teardown Analysis
-* **iFixit / Teardown Reference:** Google Pixel Watch 4 Display Replacement & Structural Audit
-
----
-
-## 2. Visual Teardown Reference
-![Google Pixel Watch 4 Screen Separation](./Screenshot_20261026-072207_iFixit.png)
-*Image Source: iFixit Google Pixel Watch 4 Teardown Guide*
+> **Executive Overview & Audit Snapshot**
+> * **Device & Goal:** Google Pixel Watch 4 | Screen & Display Assembly Replacement
+> * **DFD Grade:** D (Score: 4/10) | **Est. Time:** ~40–50 minutes (High)
+> * **Core Failure:** Curved 3D AMOLED display bonded with high-density structural perimeter glue.
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261026-072207_iFixit.png)
 
 ---
 
 ## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
-* [x] **Minimum Variety:** Pass — Uses uniform micro-Torx fasteners internally once the outer display assembly is unbonded.
-* [x] **Standard Drives:** Pass — Internal brackets rely on standard precision micro-Torx bits rather than multi-pin proprietary security screws.
-* [ ] **Fastener Elimination:** Fail — Structural retention of the outer glass dome relies entirely on perimeter liquid adhesive rather than mechanical latches or bezel screws.
+* [x] **Minimum Variety:** Pass — Uniform micro-Torx fasteners internally.
+* [x] **Standard Drives:** Pass — Precision micro-Torx bits.
+* [ ] **Fastener Elimination:** Fail — Outer glass dome relies entirely on perimeter liquid adhesive.
 
 ### 2. Bonding & Materials
-* [ ] **Zero Permanent Glue:** Fail — Sealed with heavy perimeter structural adhesive along the curved glass rim to maintain water resistance.
-* [ ] **Thermal / Mechanical Release:** Partial Pass — Requires precise localized heat application and suction tools to detach the curved glass without fracturing the OLED substrate.
-* [x] **Material Separation:** Pass — Clean mechanical isolation of the display glass assembly from the recycled aluminum chassis once adhesive bonds are severed.
+* [ ] **Zero Permanent Glue:** Fail — Sealed with heavy structural adhesive along the curved rim.
+* [ ] **Thermal / Mechanical Release:** Partial Pass — Requires precise localized heat application.
+* [x] **Material Separation:** Pass — Clean mechanical isolation of display glass from chassis.
 
 ### 3. High-Wear Component Access
-* [x] **First-Layer Access:** Pass — Lifting the screen panel provides direct top-down access to the internal mainboard, battery assembly, and haptic engine.
-* [ ] **Tool-Free Removal:** Fail — Requires heat guns/pads, suction clamps, ultra-thin prying shims, and precision driver sets.
+* [x] **First-Layer Access:** Pass — Screen panel provides top-down access.
+* [ ] **Tool-Free Removal:** Fail — Requires heat guns, suction clamps, and shims.
 
 ### 4. Modular Architecture
-* [x] **Sub-Assemblies:** Pass — Fused display module connects to the main system board via a single press-fit ZIF/board-to-board flex connector.
-* [ ] **Cable Management:** Partial Pass — Ultra-short flex cables require cautious prying to avoid tearing the ribbon cable during screen lifting.
+* [x] **Sub-Assemblies:** Pass — Single press-fit ZIF flex connector.
+* [ ] **Cable Management:** Partial Pass — Ultra-short flex cables require cautious prying.
 
 ---
 
 ## 4. Manufacturer Intent & Business Context
-* **Why Google Designed It This Way:** 
-  1. **Continuous 3D Glass Aesthetics & Ergonomics:** Eliminating visible bezel fasteners allows a seamless, curved dome interface.
-  2. **High Ingress Protection (IP Rating):** Continuous perimeter bonding guarantees tight water and dust sealing required for swim-proof wearable tracking.
+* **Why Designed It This Way:** Continuous 3D glass aesthetics and high IP ingress protection for wearables.
 
 ---
 
 ## 5. Engineering Critique & DFD Redesign
-
-* **Main Design Flaw:** The curved glass perimeter makes mechanical prying high-risk, as force applied to the 3D edge can easily fracture the glass or damage the underlying touch sensors.
-* **DFD Redesign Recommendation:** Implement a twist-lock or gasket-sealed mechanical retaining ring mechanism to preserve water resistance while allowing non-thermal, tool-light screen separation.
+* **Main Design Flaw:** Curved glass perimeter makes mechanical prying high-risk for glass fracture.
+* **DFD Redesign Recommendation:** Implement a twist-lock mechanical retaining ring mechanism.
 
 ---
 
 ## 6. Product Design & Physical Security Trade-offs
-* **Tamper Resistance vs. Disassembly:** The continuous structural adhesive perimeter provides high IP-rated ingress protection and prevents physical tampering with internal sensor data. However, this tight environmental sealing creates high friction for display repairs, requiring heat and delicate mechanical separation.
+* **Tamper Resistance vs. Disassembly:** Continuous adhesive perimeter provides high IP rating and prevents physical sensor tampering.
+
+---
 
 ## 7. Regulatory & Eco-Compliance Audit
-* **WEEE Target Separation:** Partial Pass — Internal modules can be unscrewed once unbonded, but thermal separation of the curved display risks glass breakage.
-* **Material Identification & Sorting:** Pass — Recycled aluminum chassis and stainless steel components feature clean alloy separation points.
-* **RoHS/REACH Chemical & Bonding Risk:** Warning — Dense waterproof perimeter liquid adhesive complicates clean material sorting and recycling streams.
+* **WEEE Target Separation:** Partial Pass — Internal modules unscrew, but thermal separation of curved display risks breakage.
+* **Material Identification & Sorting:** Pass — Recycled aluminum and stainless steel housing features clean alloy points.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Dense waterproof perimeter liquid adhesive complicates recycling streams.
+
+---
 
 ## 8. Material Breakdown & Polymer Selection
 * **Primary Resins:** >PA66-GF25< (internal chassis carrier), PET sensor flex layers.
-* **Thermal Response & Disassembly Friction:** Low-to-moderate glass transition temperature (Tg ~80°C); curved 3D display adhesive requires precise localized heating to prevent glass fracture.
-* **Elastomers & Waterproofing Seals:** Custom molded silicone O-rings and liquid silicone rubber (LSR) crown and sensor seals for 5ATM/IP68 rating.
-* **Eco-Compliance & Circularity:** RoHS and REACH compliant, recycled aluminum and stainless steel housing materials.
+* **Thermal Response & Disassembly Friction:** Tg ~80°C; curved display adhesive requires precise localized heating.
+* **Elastomers & Waterproofing Seals:** Silicone O-rings and liquid silicone rubber (LSR) crown/sensor seals.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, recycled aluminum and stainless steel.
