@@ -59,3 +59,9 @@
 * **WEEE Target Separation:** Partial Pass — Internal modules can be unscrewed once unbonded, but thermal separation of the curved display risks glass breakage.
 * **Material Identification & Sorting:** Pass — Recycled aluminum chassis and stainless steel components feature clean alloy separation points.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Dense waterproof perimeter liquid adhesive complicates clean material sorting and recycling streams.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PA66-GF25< (internal chassis carrier), PET sensor flex layers.
+* **Thermal Response & Disassembly Friction:** Low-to-moderate glass transition temperature (Tg ~80°C); curved 3D display adhesive requires precise localized heating to prevent glass fracture.
+* **Elastomers & Waterproofing Seals:** Custom molded silicone O-rings and liquid silicone rubber (LSR) crown and sensor seals for 5ATM/IP68 rating.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, recycled aluminum and stainless steel housing materials.
