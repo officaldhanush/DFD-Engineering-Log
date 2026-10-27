@@ -1,63 +1,60 @@
 # DFD Study Log 11: Google Pixel 7a (Internal Battery Replacement)
 
 > **Executive Overview & Audit Snapshot**
-> * **Device & Goal:** Google Pixel 7a | Internal Battery Extraction & Midframe Disassembly
+> * **Device & Goal:** Google Pixel 7a | Internal Battery Replacement
 > * **DFD Grade:** D+ (Score: 5/10) | **Est. Time:** ~35–45 minutes (Moderate-High)
-> * **Core Failure:** Fragile stretch-release pull tabs frequently snap, forcing technicians to rely on thermal softening and delicate manual prying.
-> * **Reference:** [iFixit Google Pixel 7a Teardown Guide](./Screenshot_20261027-071743_iFixit.png)
+> * **Core Failure:** Strong battery adhesive pull tabs prone to snapping, requiring thermal back panel removal.
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261027-071743_iFixit.png)
 
 ---
 
 ## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
-* [x] **Minimum Variety:** Pass — Uses standard T3 Torx screws throughout the internal midframe and protective shield plates.
-* [x] **Standard Drives:** Pass — Leverages standard Torx drive heads rather than non-standard or proprietary multi-pin security screws.
-* [ ] **Fastener Elimination:** Fail — Relies on perimeter adhesive to hold the thermoformed plastic rear panel in place instead of mechanical clips or latches.
+* [x] **Minimum Variety:** Pass — Standard T3 Torx screws throughout internal midframe.
+* [x] **Standard Drives:** Pass — Standard Torx drive heads.
+* [ ] **Fastener Elimination:** Fail — Relies on perimeter adhesive for thermoformed plastic rear panel.
 
 ### 2. Bonding & Materials
-* [ ] **Zero Permanent Glue:** Fail — The battery cell is heavily secured to the inner frame using dense pressure-sensitive adhesive (PSA).
-* [ ] **Thermal / Mechanical Release:** Partial Pass — Includes pull tabs, but high failure rates often require isopropyl alcohol (IPA) assistance to safely soften the adhesive bond.
-* [x] **Material Separation:** Pass — Clear material separation between the thermoformed plastic rear cover, aluminum internal frame, and circuit assemblies once fasteners and glue are removed.
+* [ ] **Zero Permanent Glue:** Fail — Battery cell heavily secured using dense PSA.
+* [ ] **Thermal / Mechanical Release:** Partial Pass — Includes pull tabs, but high failure rates require IPA solvent.
+* [x] **Material Separation:** Pass — Clear separation between plastic rear cover, aluminum frame, and circuits.
 
 ### 3. High-Wear Component Access
-* [ ] **First-Layer Access:** Fail — Accessing the battery requires removing the rear panel, removing numerous midframe Torx screws, disconnecting the battery flex cable bracket, and unseating the wireless charging coil assembly.
-* [ ] **Tool-Free Removal:** Fail — Requires heat pads/guns, opening picks, suction tools, T3 Torx drivers, and adhesive solvents.
+* [ ] **First-Layer Access:** Fail — Requires back panel removal, midframe unfastening, and wireless coil unseating.
+* [ ] **Tool-Free Removal:** Fail — Requires heat pads, opening picks, suction tools, and Torx drivers.
 
 ### 4. Modular Architecture
-* [x] **Sub-Assemblies:** Pass — The battery features a detachable board-to-board press connector rather than soldered leads.
-* [ ] **Cable Management:** Partial Pass — Screen flex cable routes across the battery well under protective tape, requiring careful handling during cell removal.
+* [x] **Sub-Assemblies:** Pass — Detachable board-to-board press connector.
+* [ ] **Cable Management:** Partial Pass — Screen flex cable routes across battery well under protective tape.
 
 ---
 
 ## 4. Manufacturer Intent & Business Context
-* **Why Google Designed It This Way:** 
-  1. **Cost-Effective IP67 Water/Dust Resistance:** Continuous perimeter adhesive allows tight sealing on a mid-range budget device without requiring expensive mechanical gaskets.
-  2. **Structural Integrity & Budget Materials:** Using a thermoformed plastic back panel backed by structural adhesive maintains rigidity while keeping manufacturing costs lower than premium glass/aluminum flagship builds.
+* **Why Designed It This Way:** Cost-effective IP67 water/dust resistance and structural integrity on a budget build.
 
 ---
 
 ## 5. Engineering Critique & DFD Redesign
-
-* **Main Design Flaw:** The stretch-release pull tabs under the battery frequently tear during manual pull attempts, forcing technicians to resort to prying or chemical solvents near a high-density cell.
-* **DFD Redesign Recommendation:** Implement full-width stretch-release adhesive pull tabs (similar to modern iPhone designs) or a reusable mechanical metal bracket enclosure for easy, solvent-free battery removal.
+* **Main Design Flaw:** Stretch-release pull tabs frequently tear, forcing technicians to use prying or chemical solvents.
+* **DFD Redesign Recommendation:** Implement full-width stretch-release adhesive pull tabs or a reusable metal bracket enclosure.
 
 ---
 
 ## 6. Product Design & Physical Security Trade-offs
-* **Tamper Resistance vs. Disassembly:** The perimeter adhesive seal and hidden midframe fasteners protect internal components from dust/water intrusion and casual physical tampering. However, this configuration increases repair friction by requiring thermal softening and multi-step internal disassembly to swap consumable battery components.
+* **Tamper Resistance vs. Disassembly:** Perimeter adhesive seal and hidden midframe fasteners protect internal components from fluid intrusion.
 
 ---
 
 ## 7. Regulatory & Eco-Compliance Audit
-* **WEEE Target Separation:** Partial Pass — The battery and logic board can be isolated, but strong internal adhesives and delicate ribbon cabling increase the risk of component damage during rapid extraction.
-* **Material Identification & Sorting:** Pass — Plastic back panel and internal composite elements carry clear resin/material stamps for post-consumer sorting.
-* **RoHS/REACH Chemical & Bonding Risk:** Warning — Structural battery PSA tapes and perimeter sealing glues act as contaminants in automated mechanical shredding and sorting streams.
+* **WEEE Target Separation:** Partial Pass — Battery and logic board can be isolated, but strong adhesives risk component damage.
+* **Material Identification & Sorting:** Pass — Plastic back panel and internal composite elements carry clear resin stamps.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Structural battery PSA tapes and perimeter sealing glues act as recycling contaminants.
 
 ---
 
 ## 8. Material Breakdown & Polymer Selection
 * **Primary Resins:** >PC-GF< (thermoformed back panel), >PA66< internal support frames.
-* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~90°C); back cover adhesive softens cleanly at 75–80°C via heat pad.
+* **Thermal Response & Disassembly Friction:** Tg ~90°C; back cover adhesive softens at 75–80°C via heat pad.
 * **Elastomers & Waterproofing Seals:** Silicone perimeter gasket for IP67 water and dust resistance.
-* **Eco-Compliance & Circularity:** RoHS and REACH compliant, significant post-consumer recycled plastic content in back cover and midframe components.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, significant post-consumer recycled plastic content.
