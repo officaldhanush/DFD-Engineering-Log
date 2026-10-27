@@ -61,3 +61,9 @@
 * **WEEE Target Separation:** Partial Pass — The battery and logic board can be isolated, but strong internal adhesives and delicate ribbon cabling increase the risk of component damage during rapid extraction.
 * **Material Identification & Sorting:** Pass — Plastic back panel and internal composite elements carry clear resin/material stamps for post-consumer sorting.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Structural battery PSA tapes and perimeter sealing glues act as contaminants in automated mechanical shredding and sorting streams.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PC-GF< (thermoformed back panel), >PA66< internal support frames.
+* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~90°C); back cover adhesive softens cleanly at 75–80°C via heat pad.
+* **Elastomers & Waterproofing Seals:** Silicone perimeter gasket for IP67 water and dust resistance.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, significant post-consumer recycled plastic content in back cover and midframe components.
