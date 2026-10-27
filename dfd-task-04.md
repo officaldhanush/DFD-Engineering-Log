@@ -4,7 +4,7 @@
 > * **Device & Goal:** Nothing Ear (1) | Acoustic Driver & Battery Teardown
 > * **DFD Grade:** F (Score: 2/10) | **Est. Time:** ~45–60+ minutes (Extreme)
 > * **Core Failure:** Full ultrasonic plastic welding permanently fuses outer housings together.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_NothingEar1.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261020-084258_iFixit.png)
 
 ---
 
