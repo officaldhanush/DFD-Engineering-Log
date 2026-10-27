@@ -1,65 +1,60 @@
-# DFD Study Log 07: MacBook Air 13" Late 2020 (Screen & Display Assembly Replacement)
+# DFD Study Log 07: MacBook Air 13" Late 2020 (M1) (Logic Board & Battery Replacement)
 
-## 1. Target Device Overview
-* **Device Name:** MacBook Air 13" (Late 2020, M1)
-* **Repairability Score:** 6/10 | **DFD Grade:** C+ (Modular Hinges, Multi-Drive Hardware Overhead)
-* **Estimated Disassembly Time & Labor Friction:** ~25–35 minutes | Low-Moderate (Straightforward P5 pentalobe and Torx fastener removal with zero glued structural barriers)
-* **Disassembly Goal:** Complete Display Assembly (LID) Detachment & Hinge Access
-* **Analysis Type:** Virtual Teardown Analysis
-* **iFixit / Teardown Reference:** MacBook Air 13" Late 2020 Display Assembly Replacement & Structural Audit
-
----
-
-## 2. Visual Teardown Reference
-![MacBook Air 13 Late 2020 Display Removal](./Screenshot_20261023-073157_iFixit~2.jpg)
-*Image Source: iFixit MacBook Air 13" Late 2020 Teardown Guide*
+> **Executive Overview & Audit Snapshot**
+> * **Device & Goal:** MacBook Air 13" Late 2020 (M1) | Logic Board & Battery Replacement
+> * **DFD Grade:** B (Score: 7.5/10) | **Est. Time:** ~25–35 minutes (Low-Moderate)
+> * **Core Failure:** Glued-in battery cells require thermal solvent release agents.
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_MacBookAirM1.png)
 
 ---
 
 ## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
-* [ ] **Minimum Variety:** Fail — Uses a mix of proprietary external Pentalobe (P5) screws, internal Torx (T3, T5, T8), and specialized standoff fasteners across mid-frame brackets.
-* [ ] **Standard Drives:** Fail — Demands specialized driver bits (Pentalobe and multiple micro-Torx sizes) rather than standard Phillips or uniform hardware.
-* [x] **Fastener Elimination:** Pass — Relies entirely on mechanical threaded fasteners for enclosure securing rather than glue-sealed clamshell housings.
+* [x] **Minimum Variety:** Pass — Standard Pentalobe P5 and Torx T3 screws.
+* [x] **Standard Drives:** Pass — Standard precision tool bits.
+* [x] **Fastener Elimination:** Pass — Unibody clip-and-screw architecture.
 
 ### 2. Bonding & Materials
-* [x] **Zero Permanent Glue:** Pass — The display hinges, top case, bottom cover, and display cables are held purely by screws, metal brackets, and mechanical alignment pins.
-* [x] **Thermal / Mechanical Release:** Pass — Requires zero heat or solvent application to detach the entire display assembly from the main chassis once internal brackets are unscrewed.
-* [x] **Material Separation:** Pass — Clean mechanical separation between the aluminum chassis, logic board, and glass/display assembly allows highly efficient material sorting.
+* [ ] **Zero Permanent Glue:** Fail — Battery cells use strong structural adhesive strips.
+* [x] **Thermal / Mechanical Release:** Pass — Accessible screw layout for internal shielding.
+* [x] **Material Separation:** Pass — Exceptionally clean aluminum unibody separation.
 
 ### 3. High-Wear Component Access
-* [ ] **First-Layer Access:** Fail — Replacing the display assembly requires removing the bottom cover, disconnecting the battery flex cable, removing the antenna board cover, and unthreading hinge brackets.
-* [ ] **Tool-Free Removal:** Fail — Requires precise driver bits (P5, T3, T5, T8) and ESD-safe spudgers for delicate connector disconnection.
+* [x] **First-Layer Access:** Pass — Bottom case removes immediately upon unfastening.
+* [x] **Tool-Free Removal:** Fail — Requires Pentalobe and Torx drivers.
 
 ### 4. Modular Architecture
-* [x] **Sub-Assemblies:** Pass — The display assembly functions as a self-contained unit (panel, lid, hinges, and integrated webcam/sensor cable).
-* [ ] **Cable Management:** Partial Pass — Embedded flex cables routed through tight hinge channels present a high risk of snagging or tearing during display alignment.
+* [x] **Sub-Assemblies:** Pass — Modular IO and logic board planes.
+* [x] **Cable Management:** Pass — Well-routed display and keyboard ribbon cables.
 
 ---
 
 ## 4. Manufacturer Intent & Business Context
-* **Why Apple Designed It This Way:** 
-  1. **Ultra-Thin Form Factor:** Direct screw-and-hinge anchoring into the CNC-machined aluminum unibody maximizes rigidity while minimizing vertical thickness.
-  2. **Service Control & Component Pairing:** Modular display connection via delicate micro-coaxial connectors ensures authorized calibration and anti-tamper controls.
+* **Why Designed It This Way:** Premium unibody rigidity combined with efficient factory automated assembly.
 
 ---
 
 ## 5. Engineering Critique & DFD Redesign
+* **Main Design Flaw:** Glued battery cells complicate safe removal without chemical solvents.
+* **DFD Redesign Recommendation:** Implement mechanical drop-in battery trays with screw retention.
 
-* **Main Design Flaw:** Accessing the display hinges requires prior removal of the battery interface shield, antenna board, and multiple micro-Torx brackets, significantly increasing teardown steps for a high-turnover repair.
-* **DFD Redesign Recommendation:** Consolidate hinge screws to a single standardized Torx drive size and utilize top-accessible external hinge caps or quick-release latching pins to allow screen swapping without deep internal board disassembly.
+---
 
 ## 6. Product Design & Physical Security Trade-offs
-* **Tamper Resistance vs. Disassembly:** Direct unibody screw anchoring provides solid structural rigidity and prevents casual casing separation. While internal components are mechanically secured rather than glued, the mix of proprietary drive bits deters unauthorized internal tampering.
+* **Tamper Resistance vs. Disassembly:** Clean screw-based internal architecture balances moderate serviceability with structural durability.
+
+---
 
 ## 7. Regulatory & Eco-Compliance Audit
-* **WEEE Target Separation:** Pass — Unibody screw assembly allows systematic removal of the battery, logic board, and display panel without destruction.
-* **Material Identification & Sorting:** Pass — Aluminum unibody shell and internal metal shielding are exceptionally easy to sort and recycle.
-* **RoHS/REACH Chemical & Bonding Risk:** Warning — Glued-in battery cells require thermal release agents that complicate automated e-waste recovery.
+* **WEEE Target Separation:** Pass — Unibody screw assembly allows systematic removal of core parts.
+* **Material Identification & Sorting:** Pass — Aluminum unibody shell sorts easily.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Glued-in battery cells require thermal release agents.
+
+---
 
 ## 8. Material Breakdown & Polymer Selection
-* **Primary Resins:** >PC/ABS< (hinge covers and internal insulating sheets), PET.
-* **Thermal Response & Disassembly Friction:** High structural stability; glued battery removal requires controlled thermal pad softening (~60–70°C) to prevent cell rupture.
-* **Elastomers & Waterproofing Seals:** Low elastomer usage; relies on precision unibody metal tolerances rather than flexible perimeter gaskets.
-* **Eco-Compliance & Circularity:** RoHS and REACH compliant, 100% recycled aluminum unibody, zero halogen cables and solder.
+* **Primary Resins:** >PC/ABS< (hinge covers), PET insulating sheets.
+* **Thermal Response & Disassembly Friction:** Glued battery removal requires controlled thermal pad softening (~60–70°C).
+* **Elastomers & Waterproofing Seals:** Low elastomer usage; relies on unibody metal tolerances.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, 100% recycled aluminum unibody.
