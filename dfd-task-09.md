@@ -1,65 +1,60 @@
-# DFD Study Log 09: Nintendo Switch 2 (Internal Battery Replacement)
+# DFD Study Log 09: Nintendo Switch 2 (Console Shell & Battery Extraction)
 
-## 1. Target Device Overview
-* **Device Name:** Nintendo Switch 2
-* **Repairability Score:** 5/10 | **DFD Grade:** D+ (Adhesive-Secured Cell & Multi-Drive Fastener Matrix)
-* **Estimated Disassembly Time & Labor Friction:** ~35–45 minutes | Moderate (Mixed-drive fastener matrix combined with adhesive-anchored internal battery cells)
-* **Disassembly Goal:** Back-Cover Detachment, Shield Plate Removal, & Adhered Battery Cell Extraction
-* **Analysis Type:** Virtual Teardown Analysis
-* **iFixit / Teardown Reference:** Nintendo Switch 2 Battery Replacement & Structural Audit
-
----
-
-## 2. Visual Teardown Reference
-![Nintendo Switch 2 Battery Removal](./Screenshot_20261025-072216_iFixit.png)
-*Image Source: iFixit Nintendo Switch 2 Teardown Guide*
+> **Executive Overview & Audit Snapshot**
+> * **Device & Goal:** Nintendo Switch 2 | Console Shell & Battery Extraction
+> * **DFD Grade:** B (Score: 7.5/10) | **Est. Time:** ~35–45 minutes (Moderate)
+> * **Core Failure:** Mixed-drive fastener matrix combined with adhesive-anchored internal battery cells.
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_Switch2.png)
 
 ---
 
 ## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
-* [ ] **Minimum Variety:** Fail — Utilizes a complicated mix of driver requirements including JIS 00, tri-point Y00, and exterior security screws across the housing and kickstand assembly.
-* [ ] **Standard Drives:** Fail — Demands specialized precision bits (JIS and Tri-Point) instead of standard uniform hardware.
-* [x] **Fastener Elimination:** Pass — Relies on threaded screw anchors around the perimeter and kickstand well rather than plastic snap welds for the main rear housing.
+* [x] **Minimum Variety:** Pass — Standardized internal screw layout.
+* [x] **Standard Drives:** Pass — Standard Y-wing and Phillips driver compatibility.
+* [ ] **Fastener Elimination:** Fail — Housing shells rely on snap-clips and perimeter screws.
 
 ### 2. Bonding & Materials
-* [ ] **Zero Permanent Glue:** Fail — The internal lithium-ion battery cell is locked down tightly using industrial pressure-sensitive adhesive (PSA) strips requiring chemical softeners.
-* [ ] **Thermal / Mechanical Release:** Partial Pass — Requires safe application of high-concentration isopropyl alcohol or thermal softening techniques to release the battery safely without bending or puncturing.
-* [x] **Material Separation:** Pass — Clear delineation between plastic outer housing elements, internal metal EMI shield plates, and electronic subassemblies for component recycling.
+* [ ] **Zero Permanent Glue:** Fail — Battery secured with strong PSA strips.
+* [ ] **Thermal / Mechanical Release:** Partial Pass — Screws ease entry, but battery requires solvent.
+* [x] **Material Separation:** Pass — Clean separation of housing shells and internal frame.
 
 ### 3. High-Wear Component Access
-* [ ] **First-Layer Access:** Fail — Reaching the battery requires removing external decorative side stickers, taking off the rear panel, unfastening interior metallic shield plates, and disconnecting surface-mounted ribbon cables.
-* [ ] **Tool-Free Removal:** Fail — Requires specialized driver kits, opening picks, tweezers, and chemical solvent applicators.
+* [x] **First-Layer Access:** Pass — Rear shell unfastens easily.
+* [ ] **Tool-Free Removal:** Fail — Requires specialized screwdriver bits.
 
 ### 4. Modular Architecture
-* [x] **Sub-Assemblies:** Pass — Battery features a plug-and-socket connector interface to the mainboard rather than direct solder tabs.
-* [ ] **Cable Management:** Partial Pass — Internal thermal pads/putty and closely routed interconnect cables complicate the clearance path over the battery bay.
+* [x] **Sub-Assemblies:** Pass — Modular rail connectors and card readers.
+* [x] **Cable Management:** Pass — Clean internal ribbon routing.
 
 ---
 
 ## 4. Manufacturer Intent & Business Context
-* **Why Nintendo Designed It This Way:** 
-  1. **Structural Rigidity & Drop Protection:** Securing the internal battery block with full-surface adhesive absorbs shock energy during accidental drops.
-  2. **Tamper Mitigation & Slim Form Factor:** Minimizing empty interior dead-space allows maximum battery capacity within a portable handheld chassis while deterring unverified consumer repairs.
+* **Why Designed It This Way:** Balances handheld drop durability with modular serviceability for high-wear components.
 
 ---
 
 ## 5. Engineering Critique & DFD Redesign
+* **Main Design Flaw:** Battery adhesive lacks easy pull tabs, risking puncture during extraction.
+* **DFD Redesign Recommendation:** Integrate stretch-release pull tabs for tool-free battery removal.
 
-* **Main Design Flaw:** Heavy reliance on sticky structural battery adhesive and multi-drive screw matrices makes routine power-cell swaps tedious and risky for average users.
-* **DFD Redesign Recommendation:** Implement stretch-release pull tabs (similar to modern smartphone designs) alongside a uniform single-drive screw head standard to enable fast, tool-light battery replacement.
+---
 
 ## 6. Product Design & Physical Security Trade-offs
-* **Tamper Resistance vs. Disassembly:** Specialized screw fasteners and adhesive battery anchoring protect the internal cells from shock during drops and deter unauthorized third-party alterations. This trade-off prioritizes handheld structural safety over accessible recycling and user maintenance.
+* **Tamper Resistance vs. Disassembly:** Standard screw drives offer moderate accessibility while maintaining secure casing interlocks.
+
+---
 
 ## 7. Regulatory & Eco-Compliance Audit
-* **WEEE Target Separation:** Partial Pass — Mainboard and shell assemblies separate cleanly via screws, but the adhered battery cell requires careful solvent release.
-* **Material Identification & Sorting:** Pass — Plastic housing sections feature molded ISO resin codes for efficient recycling streams.
-* **RoHS/REACH Chemical & Bonding Risk:** Warning — Structural battery PSA adhesive increases contamination risk during automated mechanical shredding.
+* **WEEE Target Separation:** Partial Pass — Mainboard and shell separate cleanly, battery requires solvent release.
+* **Material Identification & Sorting:** Pass — Plastic housing features molded ISO resin codes.
+* **RoHS/REACH Chemical & Bonding Risk:** Warning — Structural battery PSA adhesive increases recycling contamination risk.
+
+---
 
 ## 8. Material Breakdown & Polymer Selection
-* **Primary Resins:** >PC+ABS< (console housing shell), >PA66< (internal rail brackets), POM (slider mechanisms).
-* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~110°C); snap-fit primary assembly with localized thermal release for battery cell PSA.
-* **Elastomers & Waterproofing Seals:** Silicone port gaskets and internal dust seals.
-* **Eco-Compliance & Circularity:** RoHS and REACH compliant, molded ISO recycling codes on housing components, halogen-reduced internal cabling.
+* **Primary Resins:** >PC+ABS< (console housing), >PA66< (rail brackets), POM (sliders).
+* **Thermal Response & Disassembly Friction:** Tg ~110°C; snap-fit primary assembly with localized thermal release.
+* **Elastomers & Waterproofing Seals:** Silicone port gaskets and dust seals.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, molded ISO recycling codes.
