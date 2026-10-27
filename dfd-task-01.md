@@ -4,7 +4,7 @@
 > * **Device & Goal:** iPhone 14 Pro | Display Assembly & Logic Board Access
 > * **DFD Grade:** C+ (Score: 6/10) | **Est. Time:** ~35–45 minutes (Moderate-High)
 > * **Core Failure:** Heavy perimeter structural adhesive and complex multi-bracket shielding increase opening friction.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_iPhone14Pro.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261018-091900_iFixit.png)
 
 ---
 
