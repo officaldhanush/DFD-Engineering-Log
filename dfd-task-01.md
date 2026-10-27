@@ -1,63 +1,57 @@
-# DFD Study Log 01: iPhone 14 Pro Battery Replacement (Virtual Teardown)
+# DFD Study Log 01: iPhone 14 Pro (Internal Display & Component Extraction)
 
-## 1. Target Device Overview
-* **Device Name:** iPhone 14 Pro
-* **Repairability Score:** 6/10 | **DFD Grade:** C+ (Moderate Entry Complexity)
-* **Estimated Disassembly Time & Labor Friction:** ~35–45 minutes | Moderate-High (Heat pad softening required for perimeter adhesive; multi-screw shield management)
-*  **Disassembly Goal:** Battery Replacement
-* **Analysis Type:** Virtual Teardown Analysis
-* **iFixit Guide:** iPhone 14 Pro Battery Replacement
-
----
-
- ## 2. Visual Teardown Reference
-![iPhone 14 Pro Battery Adhesive Removal](./Screenshot_20261018-091900_iFixit.png)
-*Figure 1: Applying isopropyl alcohol solvent to dissolve strong battery adhesive strips during disassembly. (Source: iFixit)*
+> **Executive Overview & Audit Snapshot**
+> * **Device & Goal:** iPhone 14 Pro | Perimeter Display & Component Extraction
+> * **DFD Grade:** Moderate-High (Score: 6/10) | **Est. Time:** ~35–45 minutes (Moderate-High: Heat pad softening required for perimeter adhesive; multi-screw shield management)
+> * **Core Failure:** High-density perimeter adhesive bonding and delicate multi-bracket display shielding increase extraction friction.
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261027-071743_iFixit.png)
 
 ---
 
 ## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
-* [ ] **Minimum Variety:** Fail — Uses multiple distinct screw types (Pentalobe, Tri-point Y000, Phillips).
-* [ ] **Standard Drives:** Fail — Relies on proprietary Pentalobe screws at the exterior and Tri-point screws internally.
-* [ ] **Fastener Elimination:** Fail — Relies on heavy perimeter adhesive rather than mechanical snap-fits.
+* [x] **Minimum Variety:** Pass — Uses standard tri-point and Phillips screws for internal brackets.
+* [x] **Standard Drives:** Pass — Standardized drive heads across interior shielding.
+* [ ] **Fastener Elimination:** Fail — Relies on continuous perimeter adhesive alongside mechanical clips.
 
 ### 2. Bonding & Materials
-* [ ] **Zero Permanent Glue:** Fail — Strong perimeter adhesive seals the display to the frame.
-* [ ] **Thermal / Mechanical Release:** Partial Pass — Uses stretch-release adhesive pull-tabs under the battery, but they frequently snap during removal.
-* [ ] **Material Separation:** Pass — Battery, glass, and chassis can be separated once freed from adhesives.
+* [ ] **Zero Permanent Glue:** Fail — Waterproofing and display assembly rely heavily on pressure-sensitive adhesives.
+* [ ] **Thermal / Mechanical Release:** Partial Pass — Requires thermal softening to release adhesive cleanly.
+* [x] **Material Separation:** Pass — Clear material division between glass, aluminum, and internal sub-assemblies.
 
 ### 3. High-Wear Component Access
-* [ ] **First-Layer Access:** Partial Pass — Display comes off first, but requires heat and prying tools before accessing battery connectors.
-* [ ] **Tool-Free Removal:** Fail — Requires suction cups, picks, heat guns, and multiple specialized screwdrivers.
+* [ ] **First-Layer Access:** Fail — Display must be opened from the front, breaking adhesive seals first.
+* [ ] **Tool-Free Removal:** Fail — Requires heat pads, suction handles, and precision drivers.
 
 ### 4. Modular Architecture
-* [ ] **Sub-Assemblies:** Pass — Battery, display, and camera modules are independent units.
-* [ ] **Cable Management:** Pass — Uses press-fit ZIF connectors on the motherboard.
+* [x] **Sub-Assemblies:** Pass — Modular camera, battery, and logic board assemblies.
+* [x] **Cable Management:** Pass — Clean ribbon cable routing underneath protective shields.
 
 ---
 
 ## 4. Manufacturer Intent & Business Context
-* **Why Apple Designed It This Way:** 
-  1. **IP68 Water & Dust Resistance:** Glue creates a tight, gapless seal around the edges that rubber gaskets alone struggle to maintain at a thin profile.
-  2. **Ultra-Slim Aesthetics:** Adhesives take up far less internal volume than mechanical clips, screws, or mounting bosses.
-  3. **Control over Servicing & Upgrades:** Proprietary screws (Pentalobe/Tri-point) deter third-party repairs and encourage customers to buy new devices when battery health degrades (Planned Obsolescence).
+* **Why Apple Designed It This Way:** To maintain a rigorous IP68 water/dust resistance rating while optimizing structural rigidity in a premium flagship smartphone chassis.
 
 ---
 
 ## 5. Engineering Critique & DFD Redesign
+* **Main Design Flaw:** Heavy reliance on adhesive perimeters makes screen and battery swaps labor-intensive.
+* **DFD Redesign Recommendation:** Implement a modular mechanical gasket locking system to eliminate thermal adhesive dependency.
 
-* **Main Design Flaw:** Heavy reliance on heat-softened perimeter glue and multi-drive screws slows down manual servicing, risks battery punctures, and complicates automated industrial recycling.
-* **DFD Redesign Recommendation:** Replace perimeter glue with a reusable mechanical rubber gasket paired with snap-fit latches, standardize all internal hardware to Phillips #00 screws, and use push-to-release mechanical battery latches instead of stretch-adhesive pull-tabs.
+---
 
 ## 6. Product Design & Physical Security Trade-offs
-* **Tamper Resistance vs. Disassembly:** The dual-entry glass and security screw design prevent unauthorized casing intrusion and protect internal user data. However, this high level of physical tamper resistance directly increases teardown complexity, making non-destructive disassembly difficult for service technicians.
+* **Tamper Resistance vs. Disassembly:** Perimeter adhesive and serialized parts pairing protect against unauthorized physical tampering and data extraction, but directly increase repair friction.
+
+---
 
 ## 7. Regulatory & Eco-Compliance Audit
 * **WEEE Target Separation:** Partial Pass — Batteries and display modules can be extracted, but heavy adhesive and multi-bracket layouts risk damaging components during rapid removal.
 * **Material Identification & Sorting:** Pass — Internal structural plastics and metal frames feature clear resin markings and separable alloys.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — High-density perimeter adhesives and display optical bonding complicate clean chemical sorting during shredding.
+
+---
 
 ## 8. Material Breakdown & Polymer Selection
 * **Primary Resins:** >PA66-GF30< (internal brackets), PET (insulation films), PC-CF.
