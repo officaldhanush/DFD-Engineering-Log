@@ -4,7 +4,7 @@
 > * **Device & Goal:** iPad Pro 11" 4th Gen (M2) | Display & Battery Assembly Teardown
 > * **DFD Grade:** D (Score: 4/10) | **Est. Time:** ~50–60 minutes (High)
 > * **Core Failure:** Heavy perimeter display adhesive and high glass fracture risk during lifting.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_iPadPro11.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261024-071422_iFixit.png)
 
 ---
 
