@@ -57,3 +57,9 @@
 * **WEEE Target Separation:** Pass — Unibody screw assembly allows systematic removal of the battery, logic board, and display panel without destruction.
 * **Material Identification & Sorting:** Pass — Aluminum unibody shell and internal metal shielding are exceptionally easy to sort and recycle.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Glued-in battery cells require thermal release agents that complicate automated e-waste recovery.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PC/ABS< (hinge covers and internal insulating sheets), PET.
+* **Thermal Response & Disassembly Friction:** High structural stability; glued battery removal requires controlled thermal pad softening (~60–70°C) to prevent cell rupture.
+* **Elastomers & Waterproofing Seals:** Low elastomer usage; relies on precision unibody metal tolerances rather than flexible perimeter gaskets.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, 100% recycled aluminum unibody, zero halogen cables and solder.
