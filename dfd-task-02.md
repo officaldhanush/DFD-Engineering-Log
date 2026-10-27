@@ -58,3 +58,9 @@
 * **WEEE Target Separation:** Pass — Refined dual-entry access allows clean isolation of the battery, mainboard, and display assemblies.
 * **Material Identification & Sorting:** Pass — Utilizes recycled aluminum chassis elements and clearly stamped internal plastic brackets.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Perimeter structural adhesives remain a contaminant risk for automated plastic recycling streams.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PA66-GF30< (internal structural frames), recycled PET films, toughened PC blends.
+* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~85°C); dual-entry thermal softening profile requires 75–80°C for clean adhesive release.
+* **Elastomers & Waterproofing Seals:** Silicone acoustic mesh and water-ingress perimeter gaskets.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, utilizes 100% recycled cobalt and gold in specific subsystems, halogen-reduced cabling.
