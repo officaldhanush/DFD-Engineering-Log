@@ -57,3 +57,9 @@
 * **WEEE Target Separation:** Partial Pass — Batteries and displays can be recovered, but extensive chemical/thermal softening is required to avoid tearing components.
 * **Material Identification & Sorting:** Pass — Metal frame and glass elements are cleanly separated, though housing plastics require chemical breakdown.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Heavy reliance on industrial adhesive backing creates significant contamination during thermal or mechanical recycling.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PA66-GF< (internal chassis plates), PET insulation layers, PC-ABS antenna frames.
+* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~90–100°C); heavy back-glass PSA requires sustained thermal plate application at ~80°C.
+* **Elastomers & Waterproofing Seals:** Fluorocarbon (FKM) and silicone gaskets ensuring IP68 water and dust resistance.
+* **Eco-Compliance & Circularity:** RoHS and REACH aligned, extensive use of recycled ocean-bound plastics, recycled glass, and recycled aluminum elements.
