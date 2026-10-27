@@ -58,3 +58,9 @@
 * **WEEE Target Separation:** Partial Pass — Batteries and display modules can be extracted, but heavy adhesive and multi-bracket layouts risk damaging components during rapid removal.
 * **Material Identification & Sorting:** Pass — Internal structural plastics and metal frames feature clear resin markings and separable alloys.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — High-density perimeter adhesives and display optical bonding complicate clean chemical sorting during shredding.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PA66-GF30< (internal brackets), PET (insulation films), PC-CF.
+* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~80–110°C); perimeter adhesive softens efficiently at 70–80°C using a thermal pad or heat gun.
+* **Elastomers & Waterproofing Seals:** EPDM and silicone perimeter gaskets, SIM tray O-ring providing IP68 water resistance.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, halogen-free internal flex circuits, recycled aluminum structural frame.
