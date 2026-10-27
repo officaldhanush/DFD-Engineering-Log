@@ -58,3 +58,9 @@
 * **WEEE Target Separation:** Partial Pass — High-value components like the mainboard and cameras are recoverable, though stuck battery cells risk puncturing during extraction.
 * **Material Identification & Sorting:** Pass — Enclosures use separable aluminum and glass elements with labeled internal brackets.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Continuous perimeter adhesive layers hinder clean automated separation of housing materials.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PA66< internal brackets, PET shielding films, PC blend components.
+* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~85°C); perimeter display adhesive softens cleanly at ~80°C.
+* **Elastomers & Waterproofing Seals:** Silicone perimeter gasket, port seals, and button O-rings.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, restricted hazardous substances, recycled rare earth elements in internal magnets.
