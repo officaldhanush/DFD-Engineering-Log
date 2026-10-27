@@ -57,3 +57,9 @@
 * **WEEE Target Separation:** Partial Pass — Display glass and battery extraction carry high fracture and puncture risks due to heavy adhesive bonding.
 * **Material Identification & Sorting:** Pass — Metal housing and glass elements sort well once completely unbonded.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Extensive perimeter display adhesive and optical clear resins introduce high bonding contamination risks.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PC-GF< internal stiffeners, PET display optical enhancement films.
+* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~90°C); requires high-perimeter thermal blanket application (80–90°C) to release heavy display PSA.
+* **Elastomers & Waterproofing Seals:** Silicone perimeter edge gasket.
+* **Eco-Compliance & Circularity:** RoHS and REACH aligned, 100% recycled aluminum enclosure, energy-efficient display driver silicon.
