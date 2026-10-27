@@ -57,3 +57,9 @@
 * **WEEE Target Separation:** Partial Pass — Mainboard and shell assemblies separate cleanly via screws, but the adhered battery cell requires careful solvent release.
 * **Material Identification & Sorting:** Pass — Plastic housing sections feature molded ISO resin codes for efficient recycling streams.
 * **RoHS/REACH Chemical & Bonding Risk:** Warning — Structural battery PSA adhesive increases contamination risk during automated mechanical shredding.
+
+## 8. Material Breakdown & Polymer Selection
+* **Primary Resins:** >PC+ABS< (console housing shell), >PA66< (internal rail brackets), POM (slider mechanisms).
+* **Thermal Response & Disassembly Friction:** Moderate glass transition temperature (Tg ~110°C); snap-fit primary assembly with localized thermal release for battery cell PSA.
+* **Elastomers & Waterproofing Seals:** Silicone port gaskets and internal dust seals.
+* **Eco-Compliance & Circularity:** RoHS and REACH compliant, molded ISO recycling codes on housing components, halogen-reduced internal cabling.
