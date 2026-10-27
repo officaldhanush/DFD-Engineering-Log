@@ -4,7 +4,7 @@
 > * **Device & Goal:** Nintendo Switch 2 | Console Shell & Battery Extraction
 > * **DFD Grade:** B (Score: 7.5/10) | **Est. Time:** ~35–45 minutes (Moderate)
 > * **Core Failure:** Mixed-drive fastener matrix combined with adhesive-anchored internal battery cells.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_Switch2.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261025-072216_iFixit.png)
 
 ---
 
