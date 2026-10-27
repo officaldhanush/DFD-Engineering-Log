@@ -4,7 +4,7 @@
 > * **Device & Goal:** PlayStation 5 | Fan, Power Supply & Heatsink Access
 > * **DFD Grade:** A- (Score: 8.5/10) | **Est. Time:** ~20–30 minutes (Low-Moderate)
 > * **Core Failure:** Deep internal cooling shroud and power supply connectors require extensive screw removal.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_PS5.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261019-074707_iFixit.png)
 
 ---
 
