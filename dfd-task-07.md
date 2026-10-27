@@ -4,7 +4,7 @@
 > * **Device & Goal:** MacBook Air 13" Late 2020 (M1) | Logic Board & Battery Replacement
 > * **DFD Grade:** B (Score: 7.5/10) | **Est. Time:** ~25–35 minutes (Low-Moderate)
 > * **Core Failure:** Glued-in battery cells require thermal solvent release agents.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_MacBookAirM1.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261023-073157_iFixit~2.jpg)
 
 ---
 
