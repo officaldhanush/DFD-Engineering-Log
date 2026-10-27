@@ -4,7 +4,7 @@
 > * **Device & Goal:** iPhone 15 | Logic Board & Internal Subsystem Replacement
 > * **DFD Grade:** B- (Score: 7/10) | **Est. Time:** ~30–40 minutes (Moderate)
 > * **Core Failure:** Dual-entry glass housing requires thermal softening and precise ribbon clearance.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_iFixit_iPhone15.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261018-091335_iFixit~2.jpg)
 
 ---
 
