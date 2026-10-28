@@ -31,7 +31,7 @@
 ---
 
 ## 4. Manufacturer Intent & Business Context
-* **Why Google/Apple Designed It This Way:** Premium aesthetic finish with high IP68 water and dust ingress protection.
+* **Why Apple Designed It This Way:** Premium aesthetic finish with high IP68 water and dust ingress protection.
 
 ---
 
