@@ -4,7 +4,7 @@
 > * **Device & Goal:** Nothing Phone (1) | Screen & Display Assembly Replacement
 > * **DFD Grade:** C- (Score: 5.5/10) | **Est. Time:** ~45–55 minutes (High Friction)
 > * **Core Failure:** Accessing the flexible OLED display connector requires removing the transparent glass back panel, unscrewing multiple Glyph LED diffuser matrix plates, and unseating internal shield layers before screen extraction can occur.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_NothingPhone1_Screen.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261028-072929_iFixit.png)
 
 ---
 
