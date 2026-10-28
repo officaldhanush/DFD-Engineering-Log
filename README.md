@@ -25,3 +25,4 @@ Whenever I analyze a device, I audit it against these four core principles:
 * [Log 09: Nintendo Switch 2 Internal Battery Replacement Analysis](./dfd-task-09.md)
 * [Log 10: Google Pixel Watch 4 Screen & Display Assembly Replacement Analysis](./dfd-task-10.md)
 * [Log 11: Google Pixel 7a Internal Battery Replacement Analysis](./dfd-task-11.md)
+* [Log 12: Nothing Phone (1) Screen & Display Assembly Replacement Analysis](./dfd-task-12.md)
