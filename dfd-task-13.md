@@ -4,7 +4,7 @@
 > * **Device & Goal:** Xbox Series X | Optical Drive, Cooling Fan & Split-Board Architecture Access
 > * **DFD Grade:** A- (Score: 8.5/10) | **Est. Time:** ~20–30 minutes (Low-Moderate Friction)
 > * **Core Failure:** Access requires peeling rear tamper-evident warranty/port stickers to expose primary Torx chassis screws.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_XboxSeriesX_Teardown.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261029-072550_iFixit.png)
 
 ---
 
