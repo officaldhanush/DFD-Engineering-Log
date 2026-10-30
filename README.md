@@ -27,3 +27,4 @@ Whenever I analyze a device, I audit it against these four core principles:
 * [Log 11: Google Pixel 7a Internal Battery Replacement Analysis](./dfd-task-11.md)
 * [Log 12: Nothing Phone (1) Screen & Display Assembly Replacement Analysis](./dfd-task-12.md)
 * [Log 13: Xbox Series X Optical Drive, Fan & Modular Architecture Teardown](./dfd-task-13.md)
+* [Log 14: Nintendo Switch Left Joy-Con Analog Joystick Replacement Analysis](./dfd-task-14.md)
