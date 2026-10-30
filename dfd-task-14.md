@@ -4,7 +4,7 @@
 > * **Device & Goal:** Nintendo Switch Left Joy-Con | Analog Joystick Assembly Extraction & Replacement
 > * **DFD Grade:** B+ (Score: 7.5/10) | **Est. Time:** ~15–25 minutes (Low-Moderate Friction)
 > * **Core Failure:** Access requires dealing with soft, easily stripped external Tri-Point (Y00) housing screws and navigating delicate internal flex ribbons that overlap the battery and midframe tray.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_JoyCon_Joystick.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261030-070551_iFixit.png)
 
 ---
 
