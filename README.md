@@ -28,3 +28,4 @@ Whenever I analyze a device, I audit it against these four core principles:
 * [Log 12: Nothing Phone (1) Screen & Display Assembly Replacement Analysis](./dfd-task-12.md)
 * [Log 13: Xbox Series X Optical Drive, Fan & Modular Architecture Teardown](./dfd-task-13.md)
 * [Log 14: Nintendo Switch Left Joy-Con Analog Joystick Replacement Analysis](./dfd-task-14.md)
+* [Log 15: Sony DualSense Wireless Controller Left Analog Joystick Replacement Analysis](./dfd-task-15.md)
