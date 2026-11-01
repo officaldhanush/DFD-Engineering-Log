@@ -4,7 +4,7 @@
 > * **Device & Goal:** Sony DualSense Wireless Controller | Left Analog Joystick Potentiometer & Module Extraction
 > * **DFD Grade:** C+ (Score: 6/10) | **Est. Time:** ~30–40 minutes (Moderate Friction)
 > * **Core Failure:** Accessing the main logic board and joystick modules requires removing concealed clips under the ergonomic grip covers, extracting multiple hidden screws inside the handle wells, and desoldering through-hole pins from the high-density main circuit board.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_DualSense_Joystick.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261101-072234_iFixit.png)
 
 ---
 
