@@ -4,7 +4,7 @@
 > * **Device & Goal:** Apple AirPods Max | Headband Mechanism & Ear Cup Internal Electronics Extraction
 > * **DFD Grade:** D (Score: 4/10) | **Est. Time:** ~40–50 minutes (High Friction)
 > * **Core Failure:** Accessing the internal battery, driver, and main logic board requires navigating heavy internal adhesive, delicate ribbon connectors, and concealed screws hidden beneath magnetically attached ear cushions and internal fabric lining.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_AirPodsMax_Teardown.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261102-072907_iFixit.png)
 
 ---
 
