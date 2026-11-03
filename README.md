@@ -30,3 +30,4 @@ Whenever I analyze a device, I audit it against these four core principles:
 * [Log 14: Nintendo Switch Left Joy-Con Analog Joystick Replacement Analysis](./dfd-task-14.md)
 * [Log 15: Sony DualSense Wireless Controller Left Analog Joystick Replacement Analysis](./dfd-task-15.md)
 * [Log 16: Apple AirPods Max Headband & Ear Cup Disassembly Analysis](./dfd-task-16.md)
+* [Log 17: Samsung Galaxy Z Flip Top Glass & Outer Cover Replacement Analysis](./dfd-task-17.md)
