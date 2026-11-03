@@ -4,7 +4,7 @@
 > * **Device & Goal:** Samsung Galaxy Z Flip | Top Glass / Rear Outer Panel Replacement 
 > * **DFD Grade:** C (Score: 5/10) | **Est. Time:** ~20–40 minutes (Moderate Friction)
 > * **Core Failure:** Accessing or replacing the top exterior glass panel requires bypassing strong perimeter chemical adhesives and managing a fragile ribbon cable linked directly to the secondary cover display.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_ZFlip_TopGlass.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261103-072404_iFixit.png)
 
 ---
 
