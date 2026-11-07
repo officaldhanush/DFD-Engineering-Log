@@ -4,7 +4,7 @@
 > * **Device & Goal:** LG Front Load Washing Machine | Drain Pump Motor Extraction & Replacement
 > * **DFD Grade:** A (Score: 9/10) | **Est. Time:** ~15–20 minutes (Low Friction)
 > * **Core Failure:** Accessing the drain pump assembly requires tipping the appliance or removing the lower front service panel, managing residual water retention, and releasing quick-connect wiring harnesses and twist-lock motor retaining clips.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_LFWashingMachine_Pump.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261107-073639_iFixit.png)
 
 ---
 
