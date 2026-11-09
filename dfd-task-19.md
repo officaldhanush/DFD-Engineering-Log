@@ -4,7 +4,7 @@
 > * **Device & Goal:** Motorola Moto G 5G (2025) | LCD Screen & Digitizer Assembly Extraction
 > * **DFD Grade:** C- (Score: 5.5/10) | **Est. Time:** ~35–45 minutes (Moderate to High Friction)
 > * **Core Failure:** Accessing and extracting the front display assembly requires removing the bonded perimeter rear plastic cover, unseating numerous midframe screws, disconnecting the battery flex cable, and applying continuous uniform thermal energy to break down the strong screen frame adhesive.
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_MotoG5G_Screen.png)
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261109-094645_iFixit.png)
 
 ---
 
