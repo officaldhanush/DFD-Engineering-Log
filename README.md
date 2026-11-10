@@ -33,4 +33,4 @@ Whenever I analyze a device, I audit it against these four core principles:
 * [Log 17: Samsung Galaxy Z Flip Top Glass & Outer Cover Replacement Analysis](./dfd-task-17.md)
 * [Log 18: LG Front Load Washing Machine Drain Pump Motor Replacement Analysis](./dfd-task-18.md)                       
 * [Log 19: Motorola Moto G 5G (2025) LCD Screen Replacement Analysis](./dfd-task-19.md)
-* [Log 20: Amazon Echo Smart Speaker Disassembly & Acoustic Architecture Analysis](./dfd-task-20.md)
+* [Log 20: Amazon Echo (1st Generation / Cylindrical Smart Speaker Disassembly)](./dfd-task-20.md)
