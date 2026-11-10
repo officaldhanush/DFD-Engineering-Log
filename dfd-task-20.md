@@ -4,7 +4,7 @@
 > * **Device & Goal:** Amazon Echo (Smart Speaker) | Main Logic Board, Driver & Power Supply Extraction
 > * **DFD Grade:** C+ (Score: 7/10) | **Est. Time:** ~25–35 minutes (Moderate Friction)
 > * **Core Failure:** Accessing internal acoustic transducers and power management boards requires peeling off bonded rubber base pads, removing deeply recessed security screws (using a Torx T10 screwdriver), and navigating tight internal acoustic enclosure seals[cite: 6].
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_AmazonEcho_Teardown.png)[cite: 6]
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261110-073758_iFixit.png)
 
 ---
 
