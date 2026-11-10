@@ -4,7 +4,7 @@
 > * **Device & Goal:** Amazon Echo (1st Gen, Model SK705DI) | Main Logic Board, Driver Stack & Power Supply Extraction[cite: 7]
 > * **DFD Grade:** C+ (Score: 7/10) | **Est. Time:** ~25–35 minutes (Moderate Friction)[cite: 6, 7]
 > * **Core Failure:** Accessing internal acoustic drivers, Texas Instruments power management boards, and main SoC logic requires peeling off the bonded base rubber foot pad, extracting long Torx T10 structural screws, and stripping thermal dampening fabric mesh wrapped around the internal speaker shroud[cite: 6, 7].
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_AmazonEcho_Teardown.png)[cite: 6]
+> * **Reference:** [Teardown Visual Reference (iFixit)](Screenshot_20261110-073758_iFixit.png)[cite: 6]
 
 ---
 
