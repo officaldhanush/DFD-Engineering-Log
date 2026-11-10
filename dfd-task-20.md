@@ -1,62 +1,62 @@
-# DFD Study Log 20: Amazon Echo (4th Gen / Smart Speaker Disassembly)
+# DFD Study Log 20: Amazon Echo (1st Generation / Cylindrical Smart Speaker Disassembly)
 
 > **Executive Overview & Audit Snapshot**
-> * **Device & Goal:** Amazon Echo (Smart Speaker) | Main Logic Board, Driver & Power Supply Extraction
-> * **DFD Grade:** C+ (Score: 7/10) | **Est. Time:** ~25–35 minutes (Moderate Friction)
-> * **Core Failure:** Accessing internal acoustic transducers and power management boards requires peeling off bonded rubber base pads, removing deeply recessed security screws (using a Torx T10 screwdriver), and navigating tight internal acoustic enclosure seals[cite: 6].
-> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_20261110-073758_iFixit.png)
+> * **Device & Goal:** Amazon Echo (1st Gen, Model SK705DI) | Main Logic Board, Driver Stack & Power Supply Extraction[cite: 7]
+> * **DFD Grade:** C+ (Score: 7/10) | **Est. Time:** ~25–35 minutes (Moderate Friction)[cite: 6, 7]
+> * **Core Failure:** Accessing internal acoustic drivers, Texas Instruments power management boards, and main SoC logic requires peeling off the bonded base rubber foot pad, extracting long Torx T10 structural screws, and stripping thermal dampening fabric mesh wrapped around the internal speaker shroud[cite: 6, 7].
+> * **Reference:** [Teardown Visual Reference (iFixit)](./Screenshot_AmazonEcho_Teardown.png)[cite: 6]
 
 ---
 
 ## 3. DFD Audit Checklist
 
 ### 1. Fasteners & Hardware
-* [x] **Minimum Variety:** Pass — Standardizes on Torx fasteners (specifically Torx T10 according to iFixit teardown data) throughout the structural inner shell and driver mounting points[cite: 6].
-* [ ] **Standard Drives:** Partial Pass — Requires precision Torx drivers; while non-proprietary, standard cross-head drivers cannot be used.
-* [ ] **Fastener Elimination:** Fail — Relies on a rubberized foot pad bonded over base screws, requiring destructive peeling or heating to expose fastener access points.
+* [x] **Minimum Variety:** Pass — Standardizes on uniform, extra-long Torx T10 fasteners securing the internal stacked rocket-stage chassis[cite: 6, 7].
+* [x] **Standard Drives:** Pass — Uses standard precision Torx T10 drives, eliminating proprietary security bit requirements[cite: 6, 7].
+* [ ] **Fastener Elimination:** Fail — Structural retention relies on a rubberized foot pad glued directly over the primary base plate screws[cite: 6, 7].
 
 ### 2. Bonding & Materials
-* [ ] **Zero Permanent Glue:** Fail — Strong adhesive secures the bottom rubber base ring and perimeter acoustic fabric mesh to the primary frame.
-* [x] **Thermal / Mechanical Release:** Pass — Internal housing relies on mechanical screws and rubber isolation dampeners rather than total internal epoxy encapsulation.
-* [x] **Material Separation:** Pass — Clean isolation of heavy zinc-alloy weighting plates, PC+ABS structural housing, neodymium speaker magnets, and PCBs once fasteners are removed.
+* [ ] **Zero Permanent Glue:** Fail — Adhesive secures the bottom rubber foot pad and double-stick tape anchors the vibration-dampening acoustic fabric mesh swaddling the drivers[cite: 6, 7].
+* [x] **Thermal / Mechanical Release:** Pass — Internal cylindrical housing relies on mechanical screws and rubber isolation dampeners rather than total internal potting encapsulation[cite: 6, 7].
+* [x] **Material Separation:** Pass — Clean isolation of the heavy 2.5" woofer magnet, 2.0" tweeter, zinc-alloy base plates, PC+ABS structural tube, and separate logic boards once unbonded[cite: 6, 7].
 
 ### 3. High-Wear Component Access
-* [ ] **First-Layer Access:** Fail — Power jack PCB and micro-USB/auxiliary boards are gated beneath the outer fabric wrap, base plate, and internal acoustic chamber.
-* [ ] **Tool-Free Removal:** Fail — Requires a heat gun/pad (for base pad adhesive), spudger, long-reach Torx T10 screwdrivers, and prying picks[cite: 6].
+* [ ] **First-Layer Access:** Fail — Power/driver board and main logic board are gated beneath the outer rubber foot, base plate assembly, and internal acoustic shroud[cite: 6, 7].
+* [ ] **Tool-Free Removal:** Fail — Requires prying tools (for rubber foot pad peeling), long-reach Torx T10 screwdrivers, spudgers, and precision blades for fabric tape cutting[cite: 6, 7].
 
 ### 4. Modular Architecture
-* [x] **Sub-Assemblies:** Pass — Tweeter and woofer assemblies, power management board, and main SoC logic board are discrete sub-assemblies.
-* [ ] **Cable Management:** Partial Pass — Multi-wire ribbon cables route through tight rubber pressure grommets to maintain acoustic chamber air-tightness, increasing snag/tear risk during extraction.
+* [x] **Sub-Assemblies:** Pass — Features a stacked modular assembly: bottom power/speaker driver board (TI TPS53312 / TPA3110D2 Class D amp), discrete tweeter, 2.5" woofer with reflex port, and top logic board (TI DM3725 ARM Cortex-A8)[cite: 6, 7].
+* [ ] **Cable Management:** Partial Pass — Internal wiring and ribbon cables route through tight structural passages between stages, posing snag hazards during vertical extraction[cite: 6, 7].
 
 ---
 
 ## 4. Manufacturer Intent & Business Context
 * **Why Amazon Designed It This Way:** 
-  1. **Acoustic Sealing & Bass Performance:** Sealed internal chamber design prevents air pressure leakage, maximizing bass response and audio clarity from compact internal drivers.
-  2. **Seamless Spherical Aesthetic:** Concealing fasteners beneath the rubber base and fabric wrap ensures a clean, decorative industrial design suited for home environments.
+  1. **Cylindrical Acoustic Reflex Design:** A tall 9.25" cylindrical form factor allows a downward-firing 2.0" tweeter and 2.5" woofer to couple with an acoustic reflex air port, maximizing low-frequency bass output in a narrow footprint[cite: 7].
+  2. **Seamless Minimalist Aesthetic:** Hiding all primary fasteners underneath a single rubber foot pad maintains a clean, hardware-free 360° exterior profile suited for home decor[cite: 7].
 
 ---
 
 ## 5. Engineering Critique & DFD Redesign
-* **Main Design Flaw:** Gating initial structural screws behind a glued rubber base pad guarantees cosmetic deformation during any repair attempt.
-* **DFD Redesign Recommendation:** Transition the base ring to a snap-twist lock mechanism with integrated elastomer gaskets, providing tool-free access to base fasteners while preserving acoustic isolation.
+* **Main Design Flaw:** Gating structural screws behind a glued rubber base pad and wrapping internal driver housings in adhesive fabric mesh adds unnecessary cosmetic and mechanical friction during repairs[cite: 6, 7].
+* **DFD Redesign Recommendation:** Replace the glued base rubber ring with a quarter-turn twist-lock elastomer bayonet foot, providing instant tool-free access to chassis screws while maintaining acoustic isolation[cite: 6, 7].
 
 ---
 
 ## 6. Product Design & Physical Security Trade-offs
-* **Tamper Resistance vs. Disassembly:** Glued rubber footings deter end-user tampering and protect internal high-frequency microphone arrays from vibration distortion, but add high thermal/mechanical friction to field servicing.
+* **Tamper Resistance vs. Disassembly:** The rubberized base pad deters end-user tampering and protects top 7-microphone arrays from chassis vibration, but forces technicians to peel glued components prior to internal access[cite: 6, 7].
 
 ---
 
 ## 7. Regulatory & Eco-Compliance Audit
-* **WEEE Target Separation:** Partial Pass — Large internal metal weights and main PCBs isolate cleanly, though fabric-to-plastic glued interfaces complicate automated material stream sorting.
-* **Material Identification & Sorting:** Pass — Plastic chassis components carry molded ISO resin codes (>PC+ABS<).
-* **RoHS/REACH Chemical & Bonding Risk:** Pass — Compliant baseline materials; zero heavy potted potting compounds on main electronic control boards.
+* **WEEE Target Separation:** Pass — Speaker magnets, copper coils, logic boards, and heavy metal base components separate cleanly once fasteners are removed, earning a solid 7/10 repairability score[cite: 6, 7].
+* **Material Identification & Sorting:** Pass — Structural plastic cylinder and internal baffle stages carry molded ISO resin codes (>PC+ABS<)[cite: 6, 7].
+* **RoHS/REACH Chemical & Bonding Risk:** Pass — Compliant baseline materials; PCBs avoid heavy epoxy encapsulation or potting compounds[cite: 6, 7].
 
 ---
 
 ## 8. Material Breakdown & Polymer Selection
-* **Primary Resins:** >PC+ABS< (internal structural sphere & driver baffle plates), PET fabric mesh (external acoustic cover), silicone elastomer (base foot pad & dampening rings).
-* **Thermal Response & Disassembly Friction:** Glass transition temperature Tg ~105–120°C; base rubber adhesive softens at ~70°C.
-* **Elastomers & Waterproofing Seals:** Silicone pressure gaskets sealing wire routing passages to preserve acoustic pressure; zero liquid ingress IP rating.
-* **Eco-Compliance & Circularity:** RoHS/REACH compliant; heavy metal weights and structural plastics offer high recyclability once unbonded.
+* **Primary Resins:** >PC+ABS< (internal cylindrical chassis & driver housing stages), PET acoustic fabric wrap, molded silicone (base foot pad)[cite: 6, 7].
+* **Thermal Response & Disassembly Friction:** Glass transition temperature Tg ~105–120°C for PC+ABS housing; base foot adhesive softens readily with light heat (~70°C)[cite: 6, 7].
+* **Elastomers & Waterproofing Seals:** Silicone base dampener and rubber pressure grommets sealing acoustic reflex air chambers; zero IP liquid ingress rating[cite: 6, 7].
+* **Eco-Compliance & Circularity:** Highly recyclable structural elements once isolated from adhesive fabric strips[cite: 6, 7].
